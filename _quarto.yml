@@ -1,0 +1,108 @@
+project:
+  type: book
+  output-dir: docs
+
+# --- METAPODACI O KNJIZI ---
+book:
+  title: "Hrvatska Digitalna Medijska Matrica (2021.-2024.)"
+  subtitle: "Podatkovni vodič kroz digitalni ekosustav"
+  author:
+    - name: "Luka Šikić"
+      email: "luka.sikic@unicath.hr"
+
+  date: today
+
+  # --- POVEZNICE I DIJELJENJE ---
+  site-url: "https://lusiki.github.io/Medijska-matrica"
+  repo-url: "https://github.com/lusiki/Medijska-matrica"
+  repo-branch: main
+  repo-actions: [edit, issue]
+
+  # Potrebno je stvoriti ove datoteke:
+  cover-image: "images/cover.jpg"
+  favicon: "images/favicon.ico"
+
+  # --- FUNKCIONALNOSTI KNJIGE ---
+  search: true
+  downloads: [pdf, epub]
+  sharing: [twitter, facebook, linkedin]
+
+  # --- IZGLED I NAVIGACIJA ---
+  sidebar:
+    style: "floating"
+    background: light
+  page-navigation: true
+
+  # --- STRUKTURA POGLAVLJA ---
+  chapters:
+    - index.qmd
+    - part: "I. dio: Krajolik i leće"
+      chapters:
+        - chapters/01-kontekst.qmd
+        - chapters/02-metodologija.qmd
+    - part: "II. dio: Karta ekosustava temeljena na podacima"
+      chapters:
+        - chapters/03-platforme.qmd
+        - chapters/04-akteri.qmd
+        - chapters/05-viralnost.qmd
+    - part: "III. dio: Implikacije, izazovi i budućnost"
+      chapters:
+        - chapters/06-prirucnik.qmd
+        - chapters/07-dezinformacije.qmd
+    - chapters/08-zakljucak.qmd
+
+  # --- DODACI ---
+  appendices:
+    - chapters/09-dodaci.qmd
+    - references.qmd
+
+# --- POSTAVKE JEZIKA (ISPRAVNA LOKACIJA) ---
+lang: hr
+
+# --- LITERATURA I REFERENCE ---
+bibliography: literatura.bib
+crossref:
+  fig-title: "Slika"
+  tbl-title: "Tablica"
+  sec-prefix: "Poglavlje"
+  fig-prefix: "Slika"
+  tbl-prefix: "Tablica"
+
+# -------------------------------------------------------------------
+# --- POSTAVKE IZLAZNIH FORMATA ---
+# -------------------------------------------------------------------
+format:
+  html:
+    theme:
+      - cosmo
+      - styles/custom.scss
+    css: styles/styles.css
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-fold: true
+    code-summary: "Prikaži kod"
+    code-tools: true
+    fig-width: 8
+    comments:
+      hypothesis: true
+  pdf:
+    documentclass: book
+    latex-engine: xelatex
+    # lang: hr -> Nije više potrebno ovdje jer je definirano globalno
+    mainfont: "Times New Roman"
+    fontsize: 11pt
+    papersize: a4
+    geometry:
+      - "top=25mm"
+      - "left=25mm"
+      - "right=25mm"
+      - "bottom=25mm"
+  epub:
+    cover-image: "images/cover.png"
+    toc: true
+
+# --- POSTAVKE IZVRŠAVANJA KODA ---
+execute:
+  freeze: auto
+  cache: true
