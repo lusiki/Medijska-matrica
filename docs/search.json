@@ -2,11 +2,21 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Hrvatska Digitalna Medijska Matrica (2021.-2024.)",
+    "title": "Hrvatska digitalna medijska matrica (2021.-2024.)",
     "section": "",
-    "text": "0.1 # Predgovor {.unnumbered} *Napisao/la istaknuti/a hrvatski/a medijski/a analitičar/ka ili akademik/inja.* # Uvod: Kartiranje neistraženog teritorija {.unnumbered} ## O ovoj knjizi ## Kome je knjiga namijenjena? ## Glavna ideja ## Kako koristiti ovaj vodič",
+    "text": "1 Predgovor\n::: {layout-ncol=2}![Naslovnica knjige](images/cover.jpg){fig-alt=\"Naslovnica knjige Hrvatska Digitalna Medijska Matrica\" width=\"100%\"}\n\nDobrodošli u digitalnu strojarnicu hrvatskog medijskog prostora.\n\nOva knjiga nije samo tekst; ona je interaktivna mapa, set alata i podatkovni kompas dizajniran da osvijetli kompleksnu mrežu odnosa, strategija i utjecaja koji oblikuju naše online okruženje.\n\nKroz kvantitativnu analizu više od 25 milijuna objava, po prvi put prelazimo s anegdotalnih opažanja na empirijski utemeljene uvide o tome tko, što, kako i s kakvim učinkom komunicira u Hrvatskoj danas.\n\n*Luka Šikić*\n\n:::\n\n::: {.callout-note icon=“false”} ## Predgovor *Napisao/la [Ime i prezime uglednog stručnjaka/inje], [Pozicija]* Hrvatski medijski prostor je već desetljećima predmetom brojnih analiza, no rijetko kada smo imali priliku zaviriti “ispod haube” na način na koji nam to omogućuje ova knjiga. “Hrvatska Digitalna Medijska Matrica” predstavlja pionirski pothvat koji konačno unosi metodološku strogost i podatkovnu dubinu u raspravu koja se prečesto oslanjala na dojmove i pojedinačne slučajeve. Analizirajući golem korpus podataka, autor nam ne nudi samo statičnu sliku, već dinamičan prikaz ekosustava u pokretu. Vidimo kako se strategije mijenjaju, kako publika reagira i koji sadržaji postižu rezonanciju u digitalnoj sferi… *(Ovdje zalijepite cijeli tekst predgovora kada bude gotov).* :::",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Hrvatska Digitalna Medijska Matrica (2021.-2024.)</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Hrvatska digitalna medijska matrica (2021.-2024.)</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "Hrvatska digitalna medijska matrica (2021.-2024.)",
+    "section": "",
+    "text": "# Predgovor {.unnumbered .unlisted}\n\n::: {layout-ncol=2}\n![Naslovnica knjige](images/cover.jpg){fig-alt=\"Naslovnica knjige Hrvatska Digitalna Medijska Matrica\" width=\"100%\"}\nDobrodošli u digitalnu strojarnicu hrvatskog medijskog prostora.  Ova knjiga nije samo tekst; ona je interaktivna mapa, set alata i podatkovni kompas dizajniran da osvijetli kompleksnu mrežu odnosa, strategija i utjecaja koji oblikuju naše online okruženje.  Kroz kvantitativnu analizu više od 25 milijuna objava, po prvi put prelazimo s anegdotalnih opažanja na empirijski utemeljene uvide o tome tko, što, kako i s kakvim učinkom komunicira u Hrvatskoj danas.  *Luka Šikić*  :::",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Hrvatska digitalna medijska matrica (2021.-2024.)</span>"
     ]
   }
 ]
