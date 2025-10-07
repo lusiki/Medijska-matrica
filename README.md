@@ -8,7 +8,7 @@ Ovaj projekt je moderan pristup akademskom izdavaštvu, koristeći Quarto za stv
 
 ## Status
 
-**Trenutni status:** U izradi
+**Trenutni status:** U [izradi] (https://raw.githack.com/lusiki/Medijska-matrica/main/docs/index.html)
 
 ## Kako generirati knjigu
 
