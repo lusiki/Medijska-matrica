@@ -4,8 +4,8 @@ project:
 
 # --- METAPODACI O KNJIZI ---
 book:
-  title: "Hrvatska Digitalna Medijska Matrica (2021.-2024.)"
-  subtitle: "Podatkovni vodič kroz digitalni ekosustav"
+  title: "Hrvatska digitalna medijska matrica (2021.-2024.)"
+  subtitle: "Podatkovni vodič kroz digitalni medijski ekosustav"
   author:
     - name: "Luka Šikić"
       email: "luka.sikic@unicath.hr"
