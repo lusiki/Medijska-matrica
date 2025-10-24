@@ -1,5 +1,5 @@
 ---
-title: "02-metodologija"
+title: "02-podatci"
 format: html
 editor: visual
 ---
@@ -16,8 +16,6 @@ format:
     theme: cosmo
 editor: visual
 ---
-
-# Ekosustav digitalnih medija u Hrvatskoj: Analiza utemeljena na podacima
 
 
 

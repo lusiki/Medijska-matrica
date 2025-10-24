@@ -39,21 +39,22 @@ book:
     - part: "I. dio: Krajolik i leće"
       chapters:
         - chapters/01-kontekst.qmd
-        - chapters/02-metodologija.qmd
+        - chapters/02-podatci.qmd
+        - chapters/03-svijet.qmd
     - part: "II. dio: Karta ekosustava temeljena na podacima"
       chapters:
-        - chapters/03-platforme.qmd
-        - chapters/04-akteri.qmd
-        - chapters/05-viralnost.qmd
+        - chapters/04-platforme.qmd
+        - chapters/05-akteri.qmd
+        - chapters/06-viralnost.qmd
     - part: "III. dio: Implikacije, izazovi i budućnost"
       chapters:
-        - chapters/06-prirucnik.qmd
-        - chapters/07-dezinformacije.qmd
-    - chapters/08-zakljucak.qmd
+        - chapters/07-prirucnik.qmd
+        - chapters/08-dezinformacije.qmd
+    - chapters/09-zakljucak.qmd
 
   # --- DODACI ---
   appendices:
-    - chapters/09-dodaci.qmd
+    - chapters/10-dodatci.qmd
     - references.qmd
 
 # --- POSTAVKE JEZIKA (ISPRAVNA LOKACIJA) ---
