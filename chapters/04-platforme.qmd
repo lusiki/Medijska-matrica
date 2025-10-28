@@ -3,3 +3,139 @@ title: "04-platforme"
 format: html
 ---
 
+---
+title: "Web portali"
+author: "Luka Sikic"
+date: "2025-10-07"
+format: 
+  html:
+    toc: true
+    toc-location: left
+    theme: cosmo
+editor: visual
+---
+
+
+
+
+Hrvatski informativni web portali nalaze se u 2025. godini na kritičnoj prekretnici. Njihovu stvarnost definiraju tri ključna faktora: visoko koncentrirana dominacija na tržištu, strmoglavi pad slobode medija i duboka kriza ekonomske održivosti. Scena je naizgled jasna: Index.hr vodi s procijenjenih 58 do 101 milijuna mjesečnih posjeta, a slijede ga Jutarnji.hr (38 milijuna) i 24sata.hr (28 milijuna). Ipak, ispod površine ovih impresivnih brojki krije se poražavajući podatak, samo 6% Hrvata plaća za online vijesti—što je jedna od najnižih stopa na svijetu.
+
+Putanja sektora u razdoblju 2024.-2025. otkriva sustavno pogoršanje uvjeta. Hrvatska se srušila na ljestvici Reportera bez granica, pavši s 42. na 60. mjesto. Istovremeno, aktivne su 752 sudske tužbe protiv novinara, od kojih čak 41% pokazuje karakteristike strateških tužbi protiv javnog sudjelovanja (SLAPP). Povjerenje javnosti u vijesti stagnira na niskih 36%. Iako prihodi od online oglašavanja rastu 16% godišnje i dosežu 155 milijuna eura, ti digitalni dobici ni približno ne mogu kompenzirati kolaps tiskanih medija, čija je naklada samo u 2024. pala za 14%. U koordiniranom pokušaju preživljavanja, veliki portali—uključujući 24sata, Jutarnji, Večernji i Telegram—istovremeno su uveli naplatne zidove (paywalls) tijekom 2023. i 2024. godine. Bio je to riskantan ulog u pretplate, usprkos očitom otporu publike i kroničnim pitanjima o kvaliteti sadržaja.
+
+Tržište djeluje pod snažnim stranim vlasništvom—austrijska Styria kontrolira 50-60% naklade tiskanih medija. Digitalna infrastruktura pritom otkriva zapanjujući paradoks: Hrvatska se ponosi izvrsnim brzinama interneta (93 Mbps na mobilnim mrežama), ali istovremeno nudi kritično loše performanse web stranica (prosječno vrijeme učitavanja od 8.6 sekundi, u usporedbi s preporučenih 3 sekunde). Ova analiza razotkriva medijski krajolik u kojem se demokratske ambicije sudaraju s grubom ekonomskom stvarnošću, politički pritisci jačaju usprkos članstvu u EU, a publika pokazuje jednu od najviših stopa izbjegavanja vijesti na svijetu (56% zabilježeno još 2019.), dok istovremeno, sasvim paradoksalno, zadržava visoko povjerenje u društvene mreže.
+
+# Petorka koja vlada klikovima
+
+Hrvatski digitalni medijski prostor pokazuje iznimnu koncentraciju. Index.hr održava neupitno vodstvo prema više metrika. Podaci SimilarWeba iz kolovoza 2024. pripisuju mu 58,3 milijuna mjesečnih posjeta, što je znatno ispred Jutarnji.hr s 38 milijuna i 24sata.hr s 27,9 milijuna. Noviji podaci Semrusha iz lipnja 2025. postavljaju Index još više, na 101,02 milijuna ukupnih posjeta, iako to predstavlja pad od 7% u odnosu na svibanj 2025., sugerirajući određenu nestabilnost na vrhu. U međuvremenu, Dnevnik.hr je izvijestio o 1,9 milijuna prosječnih mjesečnih korisnika u 2024., tvrdeći da ima 5% prednosti pred najbližim konkurentom i pozicionirajući se kao vodeći digitalni portal prema toj specifičnoj mjernoj jedinici.
+
+Natjecateljska hijerarhija ostaje relativno stabilna. Vodeći sloj čine Index.hr, Jutarnji.hr, 24sata.hr, Večernji.hr i Tportal.hr. Portali drugog reda, poput Dnevnik.hr i Net.hr, održavaju značajnu publiku, ali zaostaju za liderima. Ova struktura poretka postojana je još od 2018. godine, kada je Reutersov institut prvi put sveobuhvatno pratio hrvatsko tržište.
+
+Metrike angažmana publike otkrivaju sofisticirane obrasce ponašanja. Index.hr postiže impresivno prosječno trajanje posjeta od 9 minuta i 38 sekundi, s 3,92 stranice po posjetu i relativno niskom stopom napuštanja (bounce rate) od 29,57%, što ukazuje na snažnu "ljepljivost" sadržaja. Izvori prometa pokazuju neobične obrasce u usporedbi s globalnim normama: čak 66,84% Indexovog desktop prometa dolazi izravno (direct), a ne putem tražilica ili društvenih mreža. To sugerira snažnu lojalnost brendu i uobičajenu, naviknutu konzumaciju.
+
+Demografski obrasci su iznenađujuće dosljedni kod svih velikih portala: muška publika dominira s 60-65%, dobna skupina od 45 do 54 godine predstavlja najveći segment korisnika, a obrazovani urbani profesionalci čine jezgru čitateljstva. Ova demografska nagnutost prema starijoj, muškoj publici predstavlja strateški izazov za portale koji žele privući mlađe, rodno uravnoteženije demografske skupine koje oglašivači sve više prioritetiziraju.
+
+# Tko uopće zna koliko tko čita?
+
+Krajem 2024. godine započela je ključna transformacija industrije koja će iz temelja promijeniti vidljivost tržišta: prijelaz Hrvatske s Gemius Audience na DotMetrics kao primarnog sustava za mjerenje prometa. Ova promjena nosi duboke implikacije jer DotMetrics neće pružati javno dostupne podatke, stvarajući značajno smanjenje transparentnosti baš u trenutku kada se industrija suočava s rastućim pritiscima održivosti. Rang liste Gemiusa iz prosinca 2024. predstavljaju jedne od posljednjih javno dostupnih sveobuhvatnih izvješća o prometu.
+
+Ovaj prijelaz dodatno komplicira postojeće izazove s podacima. SimilarWeb, Gemius i Semrush koriste različite pristupe praćenju, što dovodi do različitih rezultata koji otežavaju analizu i konkurentske procjene. Istraživači, oglašivači i promatrači industrije sve će se više morati oslanjati na manje transparentne, vlasničke izvore podataka.
+
+Sama baza korisnika interneta pokazuje znakove zasićenja. Hrvatska ima 3,37 milijuna korisnika interneta (84,4% penetracije) od siječnja 2024., s 2,79 milijuna korisnika društvenih mreža. Međutim, te brojke pokazuju blagi pad od 18.000 korisnika (-0,5%) u odnosu na prethodnu godinu. Facebook dominira s 81% svih posjeta društvenim mrežama, održavajući 1,7 milijuna hrvatskih korisnika, dok oglašavanje na YouTubeu doseže 2,79 milijuna.
+
+# Koncentracija i strani kapital
+
+Hrvatsko medijsko tržište pokazuje značajnu koncentraciju vlasništva kojom dominiraju tri glavna igrača, pri čemu strani kapital kontrolira ogroman tržišni udio—obrazac koji odražava šire trendove u Srednjoj Europi.
+
+Austrijska Styria Media Group stoji kao najveći akter, posjedujući i Večernji list (osnovan 1959.) i 24sata (pokrenut 2005.). Zajedno, oni zapovijedaju s 50-60% dnevne naklade novina. Styrijine hrvatske operacije generirale su 22,9 milijuna eura ukupnog prihoda u 2023., od čega 7,44 milijuna eura dolazi specifično iz elektroničkih publikacija (24sata.hr i Express.hr).
+
+Hanza Media predstavlja najveću domaću medijsku tvrtku, u vlasništvu sestara Ane i Dore Hanžeković nakon što su 2014. preuzele imovinu Europa Press Holdinga. Njihov portfelj uključuje Jutarnji list, Slobodnu Dalmaciju i Sportske novosti. Tvrtka je generirala 36,78 milijuna eura ukupnog prihoda u 2023., s 7,59 milijuna eura iz elektroničkih publikacija.
+
+Index.hr održava zapaženu neovisnost kao najčitaniji portal, unatoč relativno skromnim prihodima. U vlasništvu novinara Matije Babića, portal je generirao 6,52 milijuna eura prihoda u 2023., dok ne prihvaća nikakve državne subvencije ili oglašavanje—namjerni izbor pozicioniranja koji pojačava njegov oporbeni kredibilitet, ali povećava ekonomsku ranjivost. Slično tome, Telegram.hr djeluje kao neovisan entitet pod Telegram Media Group Mirana Pavića, generirajući 2,39 milijuna eura u 2023., također bez državne potpore.
+
+Portali potpomognuti televizijama uživaju strukturne prednosti. Tportal.hr djeluje pod Hrvatskim Telekomom d.d. (u većinskom vlasništvu Deutsche Telekoma), dok je Dnevnik.hr povezan s Novom TV, a Net.hr se spojio s RTL-ovim Danas.hr u siječnju 2024. pod vlasništvom Central European Media Enterprises (CME). Ova potpora telekomunikacijskih i radiodifuzijskih tvrtki pruža financijsku stabilnost nedostupnu neovisnim izdavačima.
+
+Podaci o koncentraciji tržišta naglašavaju ozbiljnost situacije: 84% tiskanih medija kontroliraju samo tri tvrtke (Styria, Hanza, Glas Istre), dok televizija pokazuje još oštriju koncentraciju s 91,2% udjela publike u rukama četiri najveća emitera.
+
+# Od liberalne oporbe do provladine pristranosti
+
+Hrvatski portali pokazuju izražen politički paralelizam, s jasnim ideološkim pozicioniranjem koje oblikuje izvještavanje i privlači pristranu publiku. Ova polarizacija odražava širi "polarizirani pluralistički mediteranski" model medija.
+
+Index.hr najistaknutije zauzima lijevo-centristički liberalni oporbeni prostor. Njegovo istraživačko novinarstvo pokazalo se iznimno utjecajnim: od 2004. godine, otkrića Indexa prisilila su na ostavku sedam vladinih ministara. Portal održava "registar skandala" pozicionirajući se eksplicitno kao oporbeni pas čuvar (watchdog). Ovaj pristup donosi visoko povjerenje među liberalnom publikom, ali istovremeno generira i najviše razine nepovjerenja na tržištu (46% povjerenja, 29% nepovjerenja).
+
+Telegram.hr slijedi sličan liberalno-istraživački model, fokusirajući se na kvalitetno novinarstvo i multimedijske inovacije.
+
+Na suprotnom ideološkom spektru, Dnevno.hr predstavlja desničarsko pozicioniranje i suočava se s ozbiljnim problemima kredibiliteta. Portal je primio 13.200 eura EU subvencija unatoč opetovanom dijeljenju dezinformacija i govora mržnje, što je izazvalo kontroverze.
+
+Najproblematičnije političko zarobljavanje utječe na HRT, javni servis koji je zakonski obvezan na neutralnost. Unatoč tome, HRT pokazuje dosljednu provladinu pristranost, posebno pod vladama HDZ-a. Uprava imenovana od strane parlamenta stvara mehanizme izravne političke kontrole. Europska komisija izdala je upozorenja 2020. zbog pogoršanja medijskih sloboda, posebno navodeći političko uplitanje u HRT. Novinari koji kritiziraju uređivačku politiku suočavaju se s tužbama od strane vlastitog poslodavca. Nije iznenađujuće da HRT-ov rejting povjerenja zaostaje za komercijalnim konkurentima (Nova TV postiže 75% povjerenja, RTL 73%, naspram znatno nižih rezultata HRT-a).
+
+Međunarodne procjene potvrđuju ovu zabrinutost. Media Pluralism Monitor za 2024. ocijenio je hrvatsku "Političku neovisnost" s 51% (srednje visok rizik). Freedom House je 2025. smanjio ocjenu slobode medija u Hrvatskoj s 3 na 2, navodeći medije pod pritiskom, SLAPP tužbe i političko uplitanje u HRT.
+
+# Pritisci na novinare
+
+Hrvatska je 2025. godine pala na 60. mjesto na svjetskoj ljestvici slobode medija Reportera bez granica, što predstavlja dramatičan pad od 18 mjesta u samo dvije godine. Ovaj kolaps nije slučajan, već je simptom sustavnih pritisaka koji prijete samoj srži novinarstva.
+
+Najočitiji alat za ušutkivanje je epidemija SLAPP tužbi. Podatak da je aktivno 752 tužbe protiv novinara i medija je alarmantan. Akademske studije koje su analizirale 1.333 tužbe podnesene između 2016. i 2023. otkrile su da 41% njih ima karakteristike SLAPP-a—strateških tužbi čiji cilj nije pravda, već financijsko iscrpljivanje i zastrašivanje novinara. Ovi procesi u prosjeku traju četiri godine. Iako većina presuda na kraju ide u korist novinara, sam proces postiže željeni zastrašujući učinak.
+
+Osim pravnog uznemiravanja, okruženje je opterećeno i fizičkim prijetnjama. Atentat autobombom 2008. u kojem su ubijeni novinari Ivo Pukanić i Niko Franjić, te kasniji napadi na druge istraživačke novinare poput Željka Peratovića (2015.), služe kao mračni podsjetnici na smrtonosne rizike za one koji istražuju organizirani kriminal i korupciju.
+
+Problematičan je i sam zakonski okvir. Kazneno djelo "sramoćenja" (ponižavanja) iz 2013. dovelo je do osuđujućih presuda protiv novinara. Najnoviji zakon iz 2025. koji kriminalizira curenje informacija iz policijskih istraga, HND i Freedom House osudili su kao izravan napad na istraživačko novinarstvo koje ovisi o povjerljivim izvorima. Hrvatska, unatoč ovoj dokumentiranoj krizi, i dalje nema anti-SLAPP zakonodavstvo.
+
+# Svijetli primjeri u mračnom okruženju
+
+Unatoč ovim pritiscima, hrvatsko novinarstvo održava džepove izvrsnosti. Đurđica Klancir primjer je istraživačkog novinarstva svjetske klase, sudjelujući u projektima Međunarodnog konzorcija istraživačkih novinara (ICIJ) uključujući Panama Papers i Paradise Papers.
+
+Index.hr, unatoč kontroverzama oko svog stila, ima konkretne rezultate: njihova su otkrića prisilila na ostavku sedam ministara od 2004., uključujući slučajeve poput afere Lex Agrokor. Telegram.hr je za svoju multimedijsku seriju "What's Next" osvojio globalne nagrade, dokazujući da kvalitetno i inovativno novinarstvo može opstati.
+
+Međutim, ovo su iznimke. Sustavna erozija je očita. Zabrinjava podatak da 30% članaka u hrvatskim medijima nema jasan potpis autora (studija iz 2022.), što ukazuje na oslanjanje na agencijske vijesti i anonimni sadržaj. Fenomen "copy/paste novinarstva" prožima tržište. Financijska ograničenja prisiljavaju redakcije na rezanje istraživačkih timova—najskupljeg oblika novinarstva. Prosječne plaće novinara od oko 1.200 dolara (u lokalnim medijima oko 600 dolara) tjeraju mnoge u dodatne poslove, ograničavajući vrijeme za temeljite istrage.
+
+Kao odgovor na bujicu dezinformacija, uspostavljena je specijalizirana infrastruktura za provjeru činjenica. Faktograf.hr, osnovan 2015. godine, postao je središnja točka hrvatskog fact-checkinga. Djelujući kao neovisna nevladina udruga, Faktograf je član Međunarodne mreže za provjeru činjenica (IFCN) i partner je Mete (Facebooka) u programu provjere sadržaja. Koriste granularnu ljestvicu ocjenjivanja (od "Fakt" do "Ni F od fakta") kako bi pružili nijansiranu procjenu točnosti.
+
+Doseg Faktografa je skroman (30.000-40.000 mjesečnih posjetitelja), ali njihov utjecaj se multiplicira kroz partnerstva s mainstream medijima poput N1 televizije. Organizacija se suočava sa značajnim neprijateljstvom, uključujući DDoS napad iz prosinca 2021. (27 milijuna pokušaja pristupa) i prijetnje smrću osoblju.
+
+# Sumrak oglasa i očajnička potraga za pretplatom
+
+Hrvatski portali suočavaju se s akutnim financijskim izazovima jer se tradicionalni modeli temeljeni na oglašavanju pokazuju nedostatnima. Razdoblje 2023.-2024. svjedočilo je koordiniranom strateškom zaokretu kada su veliki izdavači—24sata, Jutarnji, Večernji i Telegram—istovremeno uveli naplatne zidove nakon desetljeća besplatnog sadržaja.
+
+Bila je to oklada na prihod od čitatelja, unatoč poražavajućem podatku da samo 6% Hrvata plaća za online vijesti (Reutersov institut, 2025.).
+
+Digitalno oglašivačko tržište, vrijedno 155 milijuna eura u 2024., naizgled raste. Međutim, ti prihodi ne idu izdavačima. Platformski divovi, Google i Facebook, zahvaćaju otprilike 67 milijuna eura, odnosno 43% ukupnog online tržišta. Oni monetiziraju sadržaj koji su stvorili izdavači, ostavljajući im mrvice.
+
+Programatsko oglašavanje donosi dodatne probleme. Zbog slojeva posrednika (SSP, DSP, ad exchange), procjenjuje se da izdavač na kraju dobije samo 30-40% novca koji je oglašivač potrošio. U međuvremenu, kolaps tiskanih medija se ubrzava: naklada je pala za 14% samo u 2024., a zatvaranje velikog distributera zahtijevalo je državnu intervenciju kako bi se tisak uopće dostavio u ruralna područja.
+
+Uvođenje pretplata zasad ne daje ohrabrujuće rezultate. Stopa plaćanja od 6% zapravo je pad u odnosu na 8-9% prethodnih godina, unatoč tome što je više medija uvelo naplatu. Negativne recenzije aplikacije 24sata (ocijenjena kao "najgora news aplikacija u Hrvatskoj" nakon uvođenja paywalla) ilustriraju napetost između izdavača i publike.
+
+# Vrhunska infrastruktura, katastrofalno spore stranice
+
+Hrvatski portali predstavljaju tehnološki paradoks: izvrsna temeljna infrastruktura koegzistira s kritično lošim performansama web stranica.
+
+Infrastruktura je među najboljima u Europi. Hrvatska ima 99% pokrivenosti DVB-T signalom, prosječne mobilne brzine od 93,63 Mbps i implementaciju 5G mreže iznad prosjeka EU.
+
+Ipak, izdavači ne uspijevaju iskoristiti tu prednost. Prosječno vrijeme učitavanja mobilnih stranica doseže 8,6 sekundi—što je 186% sporije od preporučenog mjerila od 3 sekunde. Ovaj katastrofalan jaz u performansama uzrokuje visoke stope napuštanja stranica i loše rangiranje na tražilicama. Uzrok su prekomjerne oglasne skripte, prevelike datoteke, loše keširanje i minimalna optimizacija slika.
+
+Svi veliki portali imaju mobilne aplikacije, ali kvaliteta varira. Zanimljivo je da tehnologije poput AMP-a (Accelerated Mobile Pages) imaju ograničenu primjenu, a Progresivne web aplikacije (PWA) uopće se ne koriste.
+
+Postoji i strateški jaz u korištenju platformi. Dok mediji prekomjerno ovise o Facebooku, TikTok ostaje najznačajnije neiskorišteno područje. Unatoč rastu angažmana na TikToku od 77% na godišnjoj razini, hrvatski mediji objavljuju 13 puta manje videa na TikToku nego na Facebooku. Time dopuštaju međunarodnim konkurentima da zarobe mlađu publiku, dok oni ostaju zaključani u starenju Facebookove demografije.
+
+Inovacije poput umjetne inteligencije za personalizaciju, podcasta, interaktivnih vizualizacija ili imerzivnog novinarstva gotovo da i ne postoje. Ocjena digitalne zrelosti hrvatskih portala je tek "srednja" (5/10).
+
+# Kriza povjerenja i globalni rekord u izbjegavanju vijesti
+
+Hrvatski konzumenti vijesti pokazuju duboko poremećen odnos s medijima. Taj odnos definiran je niskim povjerenjem, visokom stopom izbjegavanja i paradoksalnim stavovima koji potkopavaju i demokratsku funkciju i ekonomsku održivost novinarstva.
+
+Povjerenje u vijesti palo je s 45% (2021.) na samo 36% (2025.). Pritom Hrvatska zauzima drugo mjesto, odmah iza Grčke, po "cinizmu prema vijestima" među europskim zemljama.
+
+Ipak, najšokantniji podatak je stopa izbjegavanja vijesti. Prema podacima Reutersovog instituta, Hrvatska je 2019. zabilježila najvišu stopu izbjegavanja vijesti na svijetu od čak 56%. Više od polovice Hrvata aktivno se trudi izbjeći vijesti, navodeći kao razloge pretjeranu negativnost, poticanje sukoba i osjećaj nemoći. Ovo masovno povlačenje iz građanskog informiranja predstavlja demokratsku krizu.
+
+Istovremeno se događa ključni paradoks: Hrvati pokazuju znatno veće povjerenje u društvene mreže (32%) od prosjeka EU (20%), iako su one najmanje pouzdan izvor informacija.
+
+Ovaj raskorak sugerira ozbiljne nedostatke u medijskoj pismenosti. Studija iz 2019. pokazala je da je samo 8% Hrvata prošlo neki oblik obrazovanja o medijskoj pismenosti, a samo 23,1% provjerava informacije prije dijeljenja na društvenim mrežama.
+
+Publika je uhvaćena u začarani krug: žale se na kvalitetu novinarstva, ali 75% ih nije zabrinuto za financijsko stanje medija, a samo 6% je spremno platiti za sadržaj. Taj stav osigurava daljnje srozavanje kvalitete, što onda potvrđuje njihov početni cinizam.
+
+# Put u daljnju eroziju?
+
+Digitalni medijski krajolik u Hrvatskoj, koji je započeo pionirskim pothvatima poput vecernji.hr (1999.) i Index.hr (2002.), danas je sustav u stanju polikrize. Konvergirajući pritisci—ekonomski slom, pravno zastrašivanje (SLAPP), političko zarobljavanje (HRT), nepovjerenje publike i tehnološko zaostajanje—stvaraju disfunkcionalni ekosustav.
+
+Put naprijed zahtijevao bi sveobuhvatne strukturne reforme: hitno donošenje anti-SLAPP zakona, depolitizaciju HRT-a, nove modele financiranja neovisne o tržištu i sustavno ulaganje u medijsku pismenost.
+
+Međutim, politička volja za tim reformama je odsutna. Čini se da onima koji imaju moć provesti promjene, savršeno odgovara postojeća disfunkcionalnost. Raskrižje na kojem se Hrvatska nalazi 2025. godine nudi neizvjesnu budućnost. Odluka o tome hoće li se eksperiment s naplatnim zidovima pokazati uspješnim ili neuspješnim, te hoće li se pad slobode medija zaustaviti ili ubrzati, odredit će hoće li hrvatsko digitalno novinarstvo preživjeti kao demokratski korektiv ili se svesti na puku tehnološku platformu za distribuciju jeftinog sadržaja.
