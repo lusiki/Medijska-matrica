@@ -3,3 +3,102 @@ title: "05-akteri"
 format: html
 ---
 
+---
+title: "Meta"
+author: "Luka Sikic"
+date: "2025-10-07"
+format: 
+  html:
+    toc: true
+    toc-location: left
+    theme: cosmo
+editor: visual
+---
+
+
+
+Za kvantificiranje Metine pozicije, nužno je prvo definirati parametre hrvatske digitalne populacije. Početkom 2025., Hrvatska je imala 3,86 milijuna stanovnika. Unutar te populacije, bilo je 3,37 milijuna korisnika interneta, što predstavlja stopu penetracije od 84,4%. Drugi izvor navodi brojku od 3,27 milijuna korisnika interneta. Ukupan broj korisnika društvenih medija iznosio je 2,79 milijuna ili 2,68 milijuna, što čini 69,8% ukupnog stanovništva. To znači da je 82,7% svih hrvatskih korisnika interneta prisutno na društvenim mrežama, što ukazuje na gotovo sveprisutnu upotrebu. Međutim, ključni podatak Eurostata (2024) otkriva tvrdo ograničenje ovog tržišta: Hrvatska ima najveći udio pojedinaca (u dobi od 16 do 74 godine) u cijeloj Europskoj uniji koji nikada nisu koristili internet, i taj udio iznosi 14%. Ova značajna "offline" populacija, vjerojatno koncentrirana u starijim i ruralnim demografskim skupinama, predstavlja strukturnu barijeru za rast. To sugerira da je Metina korisnička baza u Hrvatskoj "zrelo" tržište, ograničeno na onih 84,4% populacije koji su online.
+
+## Penetracija Metinih platformi
+
+Unutar ovog definiranog tržišta, Metine platforme funkcioniraju kao "federalni" sloj društvenog weba. Podaci o broju korisnika variraju ovisno o metodologiji. Za Facebook, jedan izvor navodi 2,53 milijuna mjesečno aktivnih korisnika, što predstavlja 64% populacije Hrvatske. Drugi izvor, temeljen na Metinim podacima o dosegu oglašavanja s početka 2025., navodi brojku od 1,85 milijuna korisnika. Ova niža brojka sugerira da otprilike 940.000 hrvatskih korisnika društvenih medija nije na Facebooku. Što se tiče ostalih platformi, doseg oglašavanja za Instagram procjenjuje se na 1,40 milijuna korisnika, a za Messenger na 1,30 milijuna korisnika. Bez obzira na razlike u mjerenju (1,85 milijuna prema 2,53 milijuna), Facebookova uloga nije apsolutni monopol, već uloga središnjeg, temeljnog alata. Ukupno, Metina obitelj platformi (Facebook, Instagram i Messenger) doseže 74% korisnika interneta u Hrvatskoj.
+
+## Demografska arhitektura
+
+Podaci otkrivaju da Metine platforme nisu jedna jedinstvena publika, već su funkcionalno specijalizirane po demografiji. Publika za oglašavanje na Facebooku gotovo je savršeno uravnotežena: 50,6% muškaraca i 49,4% žena. Ova podjela učvršćuje njegovu ulogu generičkog, zadanog "javnog trga" – alata za obiteljske veze, konzumaciju vijesti i široki politički diskurs. Najveću kohortu čine korisnici u dobi od 25 do 34 godine. S druge strane, publika Instagrama značajno naginje prema ženama, s 53,3% žena i 46,7% muškaraca. Ova demografska divergencija otkriva funkciju: dok Facebook djeluje kao nacionalni komunalni alat, Instagram služi kao primarni motor za kulturu i trgovinu.
+
+## Vrijeme provedeno na stranici vs. Infrastrukturna moć
+
+Podaci o vremenu koje korisnici provode na platformama su kontradiktorni, što vjerojatno odražava različite metodologije mjerenja. Jedan izvor navodi da Facebook dominira, prikupljajući 81% svih posjeta društvenim medijima u Hrvatskoj, te da korisnici na njemu provode 30-35 minuta dnevno. Prema tom izvoru, iako YouTube nadmašuje Facebook po ukupnom dosegu (2,68 milijuna korisnika), Facebook zadržava "supremaciju u provedenom vremenu". Suprotno tome, drugi izvor tvrdi da Meta gubi "rat za pažnju" od videa. Pozivajući se na analitiku trećih strana, navodi da Hrvati provode otprilike 29 sati mjesečno na YouTubeu, u usporedbi s otprilike 14 sati i 49 minuta mjesečno na Facebooku. Prema ovim podacima, Facebook privlači tek polovicu aktivne korisničke pažnje koju ostvaruje YouTube. Neki analitičari tvrde da, čak i ako je vrijeme provedeno na stranici manje, utjecaj Facebooka nije umanjen, već njegova moć postaje infrastrukturna. Njegova se funkcija može usporediti s komunalnom uslugom: iako korisnici ne "provode vrijeme" na električnoj mreži, ona je nezaobilazna infrastruktura za kritične funkcije. U Hrvatskoj Facebook služi toj ulozi za distribuciju vijesti, političku organizaciju i diskurs zajednice. Nisko vrijeme provedeno na stranici, prema ovoj analizi, nije znak slabosti, već znak evolucije Facebooka u pozadinsku, temeljnu infrastrukturu.
+
+# Ekosustav vijesti i informacija
+
+## Ovisnost izdavača
+
+Hrvatski mediji nalaze se u stanju "algoritamske ovisnosti" ili "strukturnog paradoksa". Facebookova dominacija čini ga neizbježnim za dosezanje publike, iako platforma pruža sve manji i nepouzdan promet. Izdavači ovise o Facebooku za promet preporuka (referral traffic), pri čemu neki mediji dobivaju između 5% i 27% svog prometa putem društvenih mreža. Međutim, ta je ovisnost stvorila "zamku": uredničke odluke u hrvatskim redakcijama više se ne donose u vakuumu. One su dio "koprodukcije" između novinara i algoritamskih prioriteta Mete. Analize su pronašle kvantitativnu korelaciju između uredničkog odabira izvora i metrika angažmana; na primjer, članci koji koriste "stručnjake" kao izvore pozitivno su povezani s interakcijama korisnika, dok su oni koji koriste "laike" negativno povezani. Ta ovisnost postoji unatoč kolapsu povjerenja javnosti u vijesti, koje je palo s 45% u 2021. na 32% u 2024.
+
+## Kvantitativni model dezinformacijske infrastrukture
+
+Paralelno s legitimnim izdavačima djeluje i visoko učinkovita infrastruktura za dezinformacije. Istraživanja su identificirala 779 Facebook stranica koje sudjeluju u koordiniranim kampanjama lažnih informacija. Ove mreže su "supranacionalne", iskorištavajući jezičnu sličnost u regiji. Značajno je da 41% tih stranica (318) potječe iz Srbije, dok samo 34% (265) potječe iz Hrvatske. Ključni kvantitativni nalaz mrežnih analiza jest da te mreže posjeduju "malu prosječnu geodetsku udaljenost". To je tehnički termin koji ukazuje na to da se dezinformacije mogu širiti s bilo kojeg čvora u mreži na bilo koji drugi ekstremnom brzinom i učinkovitošću. Nadalje, isti skup "super-širitelja" – specifičnih pseudo-medija, antisistemskih političara i konspirativnih influencera (npr. Logicno.com, Krešimir Mišak) – čini postojanu jezgru tih mreža, spremnu za aktivaciju za bilo koju novu krizu, što je dokazano njihovom ulogom u širenju dezinformacija i o COVID-19 i o ratu u Ukrajini.
+
+## Strukturno asimetrično bojište
+
+Ovaj visoko učinkoviti dezinformacijski sustav djeluje u okruženju gdje su korektivne snage sustavno slabije, stvarajući "strukturno asimetrično bojište". Mrežna analiza COVID-19 ekosustava eksplicitno je utvrdila da je klaster formiran oko Faktograf.hr – jedine hrvatske organizacije za provjeru činjenica s certifikatom IFCN-a – imao "ograničen utjecaj". Ovu neučinkovitost pogoršava značajno vremensko kašnjenje: potrebno je u prosjeku 26 dana da se dezinformacija ispravi nakon što se počela širiti. Čak i kada je sadržaj označen kao lažan, 83% pregledanih objava označenih kao lažne ostaje na platformi, umjesto da bude uklonjeno, te im se samo smanjuje doseg. Arhitektura platforme stoga funkcionalno favorizira učinkovito širenje neistina u odnosu na njihovo ispravljanje.
+
+# Politički i građanski diskurs
+
+## Političko oglašavanje 
+
+Metini sustavi, poput Knjižnice oglasa (Ad Library) i izjava o odricanju odgovornosti "Plaćeno od strane", u načelu su dizajnirani da stvore transparentnost u političkom oglašavanju. Međutim, podaci pokazuju da ovaj "transparentni" utjecaj predstavlja samo "jedan, relativno sporedan, aspekt političkog utjecaja" u Hrvatskoj. Podaci iz Knjižnice oglasa ukazuju na minimalnu transparentnost i izuzetno nisku potrošnju. Primjerice, tijekom europskih parlamentarnih izbora 2019., u Hrvatskoj je potrošeno samo ~2.000 EUR na Facebook političko oglašavanje (ožujak-svibanj 2019.), što je jedna od najnižih stopa potrošnje po glavi stanovnika u EU. Za usporedbu, Rumunjska je u istom razdoblju potrošila 241.500 EUR.
+
+Nadalje, nisu objavljeni sveobuhvatni podaci o potrošnji iz Knjižnice oglasa za hrvatske parlamentarne izbore 2024. niti za predsjedničke izbore 2024.-2025. Ovo odražava kombinaciju stvarno niske potrošnje u malom tržištu, ali i "sustavnog nedovoljnog izvještavanja" od strane stranaka, koje troškove društvenih medija često objedinjuju s općim agencijskim naknadama u financijskim izvješćima. Hrvatski politički akteri, čini se, daju prednost organskom angažmanu i prikrivenim aktivnostima nad plaćenim oglašavanjem. Primjerice, pobjeda Zorana Milanovića u siječnju 2025. (74,68% u drugom krugu) postignuta je uz minimalno formalno oglašavanje, ali uz intenzivnu organsku aktivnost na društvenim mrežama, gdje njegova stranica ima oko 147.000 pratitelja.
+
+## Koordinirano neautentično ponašanje 
+
+Najznačajnija politička aktivnost na Metinim platformama tijekom izbornog ciklusa 2024. nije bila transparentna kupnja oglasa, već "netransparentna", koordinirana manipulacija. Istraga koju je proveo GONG (hrvatska nevladina udruga za praćenje izbora) pružila je kvantitativnu studiju slučaja Koordiniranog neautentičnog ponašanja (CIB). Istraga vođena od veljače do travnja 2024. razotkrila je mrežu od 150 lažnih Facebook i Instagram profila i stranica. Ova je mreža bila koordinirana kako bi pružila "umjetnu potporu" vladajućoj stranci HDZ i objavljivala "uvrede protiv oporbe", koristeći ofenzivnu retoriku koja je protivnike označavala kao "nazadnu ljevicu", "rusofile" i "divlje revolucionare".
+
+Istraga GONG-a uspjela je pripisati ovu aktivnost, povezujući mrežu izravno s "članovima Mladeži Hrvatske demokratske zajednice (HDZ)". Korištene su taktike poput krađe profilnih fotografija. Ovaj nalaz neovisno je potvrdilo i Izvješće o vladavini prava organizacije Liberties za 2025., koje je primijetilo da je u Hrvatskoj zabilježena "manipulacija političkim oglašavanjem" s ciljem "iskrivljavanja... slobodne volje biračkog tijela" te da su istrage otkrile da su "pojedinci povezani s vladajućom strankom" bili uključeni u te klevetničke aktivnosti. Značajno je da je GONG utvrdio kako je HDZ bio jedina velika stranka koja je koristila ovakvu koordiniranu manipulaciju; kod SDP-a, Možemo! i Mosta nisu pronađeni dokazi o sličnim mrežama.
+
+## Metina uloga reaktivnog, nenadziranog ratišta
+
+Slučaj CIB mreže iz 2024. donosi dva ključna zaključka o Metinoj ulozi. Prvo, pokazuje da se najvažnija politička bitka na hrvatskom Facebooku ne vodi transparentno putem Knjižnice oglasa, već netransparentno kroz koordinirane mreže. Skala od 150 profila demonstrira sofisticiran, financiran napor za manipulaciju javnim diskursom. Drugo, i još važnije, dokazuje da je integritet Metine platforme u Hrvatskoj "izvana ovisan" i da se "ne nadzire samostalno". Slijed događaja je ključan: GONG je razotkrio mrežu u veljači 2024., no Meta je potvrdila kršenje i uklonila koordiniranu mrežu tek u svibnju 2024., i to tek nakon što je bila obaviještena javnom prijavom.
+
+Ovo dokazuje da su Metine interne, automatizirane zaštitne mjere "zakazale" u detekciji mreže od 150 profila koju je vodila stranka na vlasti u zemlji. Provedba mjera bila je "pokrenuta isključivo besplatnim radom vanjskog nadzornog tijela civilnog društva". Meta stoga funkcionira kao "nenadzirano ratište", s "potpuno nedostatnim" internim mehanizmima upravljanja. Ovaj "neuspjeh upravljanja" odvija se u širem regulatornom vakuumu: Državno izborno povjerenstvo "nema kapaciteta za proaktivni digitalni nadzor" i reagira reaktivno na pritužbe nevladinih udruga, dok je provedba Pravilnika o financijskom izvještavanju iz 2019., koji zahtijeva odvojeno iskazivanje troškova društvenih medija, "nepostojeća". Čak su i pritužbe GONG-a temeljene na Aktu o digitalnim uslugama (DSA) postigle samo "ograničene rezultate", ostavljajući Metu da izbjegava odgovornost uz minimalnu transparentnost i spore odgovore.
+
+# Komercijalni ekosustav
+
+## Duopol digitalnog oglašavanja
+
+Identificirano je da Meta, kao dominantan akter, izvlači ogromnu vrijednost iz hrvatskog digitalnog tržišta. Procjenjuje se da je Meta u 2024. godini ostvarila približno 51 do 75 milijuna eura prihoda od oglašavanja u Hrvatskoj. Ova brojka predstavlja zapanjujućih 32,9% do 38,5% cjelokupnog hrvatskog digitalnog oglašivačkog tržišta, koje je procijenjeno na 155,31 milijuna eura. Metina dominacija još je izraženija unutar samog segmenta društvenih medija, gdje njezine platforme Facebook i Instagram zajedno kontroliraju 95% potrošnje na oglašavanje. Ova koncentracija dio je šireg globalnog duopola koji Meta (Facebook) dijeli s Googleom. Taj duopol sustavno preusmjerava prihode od oglašavanja – koji su nekoć bili "žila kucavica" domaćih medijskih izdavača poput Jutarnjeg lista i 24sata – prema vlastitim "offshore sjedištima". Europski model, gdje ove dvije tvrtke drže preko 60% tržišta, operativni je financijski kontekst i za Hrvatsku.
+
+## Paradoks integracije malih i srednjih poduzeća 
+
+Metin stvarni ekonomski utjecaj na temeljno hrvatsko gospodarstvo otkriva "jasan paradoks". Srž hrvatskog gospodarstva čine mala i srednja poduzeća (SME), koja čine 74,3% ukupne zaposlenosti i 60,3% ukupnog prihoda. Unatoč Metinoj potpunoj penetraciji publike, njezina stvarna integracija u ovaj ključni sektor je upitna, a dostupni podaci su kontradiktorni. Jedna analiza, pozivajući se na studiju iz 2018., tvrdi da "stopa prihvaćanja društvenih medija [među SME] ostaje niska" te da Metini alati (Facebook stranice, trgovine) "nisu uspjeli biti duboko integrirani" od strane tradicionalnih poduzeća. To sugerira da Meta nije uspjela prodrijeti u temeljno nacionalno gospodarstvo.
+
+Suprotno tome, drugi podaci predstavljaju znatno pozitivniju sliku, navodeći da hrvatska mala i srednja poduzeća pokazuju "digitalnu prilagodbu iznad prosjeka". Ključni podatak iz ovog kuta jest da 32% hrvatskih malih i srednjih poduzeća prodaje online, što "znatno premašuje prosjek EU od 20%". Mnogi od njih pritom koriste Facebook stranice, Facebook trgovine i Marketplace "kao primarne ili dopunske prodajne kanale". Ovi izvori također ističu da 40% poduzeća koristi Facebook za otkrivanje trgovine, a preko 30.000 hrvatskih tvrtki iskoristilo je vladine vaučere za digitalnu transformaciju, djelomično i za infrastrukturu društvene trgovine. Ova temeljna nesuglasica – između "niske stope prihvaćanja" i "prilagodbe iznad prosjeka" – definira sam paradoks: dok postoji široka površinska prisutnost i korištenje za e-trgovinu, duboka, strukturna integracija u temelj poslovanja koji zapošljava tri četvrtine radne snage ostaje upitna ili niska.
+
+# Sinteza i projekcije
+
+## Koja je stvarna pozicija Facebooka?
+
+Sinteza dostupnih podataka nudi jasan, višeslojan odgovor. Najprecizniji zaključak jest da Meta u Hrvatskoj ne djeluje kao neutralna platforma, već kao "kritična, paralelna i loše upravljana infrastruktura" ili, oštrijim rječnikom, kao "monopolistička digitalna infrastruktura".
+
+Njezin položaj definiran je sljedećim karakteristikama:
+
+Služi kao ključna arena za stvarni politički utjecaj, što je dokazano dokumentiranom manipulacijom (CIB mreža vladajuće stranke) koja se odvija na njoj. Također je temeljna infrastruktura za nove paralelne ekonomije, poput tržišta influencera.
+
+Umjesto da se integrira s temeljnim gospodarstvom (SME sektorom), stvorila je vlastito. Istovremeno, ugošćuje postojani, paralelni informacijski ekosustav za dezinformacije koji djeluje izvan dosega korektivnih mehanizama.
+
+Njezino unutarnje policijsko djelovanje "potpuno je nedostatno" i "zakazuje", prisiljavajući je da se oslanja na vanjske nadzornike poput GONG-a. Istovremeno, njezine vlastite politike aktivno blokiraju akademske i javne revizije.
+
+Ova pozicija stvara "Faustovu pogodbu" ili "demokratsku zamku" specifičnu za mala tržišta: infrastruktura je "previše bitna da bi se napustila, previše moćna da bi se jednostrano regulirala i previše profitabilna da bi se dobrovoljno reformirala". Konačni status Hrvatske jest status "digitalne kolonije", čiji su informacijska ekonomija, politički diskurs i komercijalna aktivnost "podređeni algoritmima optimiziranim u Kaliforniji" za mjerne podatke o angažmanu, koji su "često suprotstavljeni demokratskom procvatu".
+
+## Projekcije i budući trendovi
+
+Na temelju postojećih podataka, sugerira se nastavak Metine dominacije, uz nekoliko ključnih trendova. Jedan vjerojatan scenarij jest "produbljivanje ovisnosti". Ovaj put vodi daljnjoj eroziji poslovnih modela novinarstva i postojanoj ranjivosti na dezinformacije, pri čemu će se strana infrastrukturna mreža (npr. 41% iz Srbije) nastaviti iskorištavati.
+
+Unutar te dominacije, vjerojatno je "raspetljavanje" (unbundling) Metinih funkcija. Facebook će vjerojatno zadržati svoju ključnu, ali opadajuću ulogu naslijeđene infrastrukture za politiku i vijesti – kao "komentarska sekcija nacije". U međuvremenu, Instagram će postati pravi centar Metine ekonomske i kulturne moći u Hrvatskoj, služeći kao motor za komercijalno tržište i kreatorsku ekonomiju.
+
+Konkurentske prijetnje, prvenstveno od TikToka, stvarne su, ali ograničene. Iako TikTok i Snapchat signaliziraju "jasnu migraciju pažnje mladih", njihov utjecaj na temeljnu infrastrukturu je malen. Čak i ako TikTok dosegne 8% udjela u oglašavanju, Meti i dalje ostaje 90%. TikTok "ne zamjenjuje" Facebookovu međugeneracijsku prisutnost i uspostavljenu poslovnu infrastrukturu.
+
+Stoga, jedina stvarna sila sposobna za promjenu jest "regulatorna neizbježnost". Zaključuje se da će europska intervencija biti ključna. Buduće regulative na razini EU, poput Akta o digitalnim uslugama (DSA), bit će "primarna vanjska sila" koja može nametnuti odgovornost. Međutim, ta je budućnost neizvjesna, jer Hrvatska trenutno "nema regulatorni kapacitet" za provedbu, a "provedba DSA izostaje". Dok se to ne promijeni, Metina strukturna moć će opstati "sve dok intervencija na europskoj razini ne nametne arhitektonske promjene".
