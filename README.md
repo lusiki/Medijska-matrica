@@ -1,10 +1,6 @@
-# Hrvatska Digitalna Medijska Matrica (2021.-2024.)
+# Hrvatska Digitalna Medijska Matrica 
 
-Ovaj repozitorij sadrži izvorni kod i rukopis za knjigu **"Hrvatska Digitalna Medijska Matrica"**, izrađenu pomoću **Quarto** sustava.
-
-## O Projektu
-
-Ovaj projekt je moderan pristup akademskom izdavaštvu, koristeći Quarto za stvaranje dinamične knjige koja služi kao rukopis u nastajanju i kao materijal za kolegij [Naziv Vašeg Kolegija] na [Naziv Vašeg Sveučilišta].
+Ovaj repozitorij sadrži kod i rukopis za knjigu **"Hrvatska Digitalna Medijska Matrica"**, izrađenu pomoću **Quarto** sustava.
 
 ## Status
 
