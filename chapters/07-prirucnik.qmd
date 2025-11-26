@@ -1,5 +1,514 @@
 ---
 title: "07-prirucnik"
-format: html
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    toc-title: "Sadržaj"
+    number-sections: true
+    smooth-scroll: true
+    fontsize: 1.05em
+    linestretch: 1.7
+    mainfont: "Georgia"
+    title-block-banner: "#ff0000"
+    title-block-banner-color: "#ffffff"
+
+execute:
+  echo: false
+  warning: false
+
+
 ---
 
+
+
+```{=html}
+<style>
+:root {
+  --yt-red: #ff0000;
+  --yt-dark: #282828;
+  --yt-light-dark: #3d3d3d;
+  --text: #0f0f0f;
+  --muted: #606060;
+  --light: #f9f9f9;
+  --border: #e5e5e5;
+}
+
+body {
+  color: var(--text);
+}
+
+h1, h2, h3, h4 {
+  color: var(--yt-dark);
+  font-weight: 600;
+}
+
+h2 {
+  margin-top: 2.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--yt-red);
+}
+
+h3 {
+  margin-top: 1.8rem;
+  color: var(--yt-dark);
+}
+
+blockquote {
+  background: var(--light);
+  border-left: 4px solid var(--yt-red);
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+}
+
+.callout {
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+table {
+  width: 100%;
+  margin: 1.5rem 0;
+  border-collapse: collapse;
+}
+
+th {
+  background: var(--yt-dark);
+  color: white;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+td {
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+tr:hover {
+  background: var(--light);
+}
+
+.key-finding {
+  background: linear-gradient(135deg, var(--yt-dark), var(--yt-light-dark));
+  color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+.key-finding strong {
+  color: #ff6b6b;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--yt-red), transparent);
+  margin: 2.5rem 0;
+}
+</style>
+```
+
+YouTube operira kao dominantna globalna videoplatforma upravo zato što njegova arhitektura istovremeno komodificira pažnju korisnika, ekstrahira bihevioralni višak putem algoritamskih sustava preporuka te eksploatira rad kreatora kroz asimetrične ugovorne aranžmane. Riječ je o **trilateralnom ekstrakcijskom stroju** koji je u 2024. godini generirao impresivnih **36,1 milijardu dolara** prihoda od oglašavanja.
+
+Ova analiza povezuje poslovnu metriku s kritičkom teorijom kako bi demonstrirala na koji način koncepti "auditorija kao robe" Dallasa Smythea, "platformskog kapitalizma" Nicka Srniceka i "nadzornog kapitalizma" Shoshane Zuboff konvergiraju u operativnom modelu YouTubea.
+
+::: {.callout-important}
+## Studija slučaja: Hrvatska
+Hrvatski kreatori zarađuju **šest do osam puta manje** po pregledu od američkih kolega zbog drastičnih razlika u CPM-u (**1,80 USD** naspram **12 USD**). Takav nerazmjer prisiljava kreatore na alternativne strategije monetizacije i stvara uvjete u kojima etablirane medijske kuće dominiraju prostorom nominalno rezerviranim za "neovisne" stvaratelje.
+:::
+
+Iako europski Zakon o digitalnim uslugama (DSA) i Zakon o digitalnim tržištima (DMA) predstavljaju najznačajniji regulatorni odgovor na moć platformi, ciklusi "Adpocalypse" – vođeni oglašivačima – pokazuju kako privatno upravljanje putem standarda "sigurnosti brenda" (*brand safety*) već sada oblikuje dopušteni govor učinkovitije od državne regulacije.
+
+---
+
+## Ekonomski motor Alphabetove tvornice pažnje
+
+Financijska putanja YouTubea razotkriva ubrzanje platformski generirane moći. Izvještaji Alphabeta Američkoj komisiji za vrijednosne papire i burzu (SEC) pokazuju kontinuirani rast prihoda od oglašavanja.
+
+| Godina | Prihod (mlrd USD) | Promjena |
+|:------:|:-----------------:|:--------:|
+| 2022 | 29,24 | — |
+| 2023 | 31,51 | +7,8% |
+| 2024 | 36,10 | +14,6% |
+
+: Rast prihoda YouTubea od oglašavanja {#tbl-prihodi}
+
+Posljednji kvartal 2024. bio je prvi u povijesti u kojem je prihod premašio **10 milijardi dolara** u jednom tromjesečju, čineći približno 10% ukupnog prihoda Alphabeta. Ipak, ove brojke zapravo podcjenjuju stratešku važnost YouTubea jer se prihodi od pretplata na YouTube Premium, Music i TV objedinjuju s ostalim Googleovim uslugama pod stavkom "pretplate, platforme i uređaji", generirajući dodatnih **15 milijardi dolara godišnje**.
+
+### Vertikalna integracija i tržišna moć
+
+Tržišna pozicija platforme ovisi o onome što antimonopolski regulatori sve češće prepoznaju kao antikonkurentsku vertikalnu integraciju. Googleovo vlasništvo nad cjelokupnim oglašivačkim tehnološkim stogom (*ad tech stack*) uključuje:
+
+- **DoubleClick for Publishers (DFP)** — poslužitelj oglasa za izdavače
+- **AdX** — burza oglasa
+- **Display & Video 360** — platforma na strani potražnje
+- **Google Ads** — sustav za kupnju oglasa
+
+Prema nalazima britanske Uprave za tržišno natjecanje i tržišta, Google drži više od **50% tržišnog udjela** u svakom sloju ekosustava.
+
+::: {.callout-warning}
+## Presuda iz travnja 2025.
+Sutkinja **Leonie Brinkema** utvrdila je da je Google nezakonito monopolizirao tržišta poslužitelja oglasa i burzi oglasa uvjetujući pristup AdX-u korištenjem DFP-a. Tvrdnje američkog Ministarstva pravosuđa sugeriraju da Google uzima do **30 centi od svakog oglašivačkog dolara**.
+:::
+
+Akvizicija YouTubea iz 2006. godine, vrijedna 1,65 milijardi dolara, danas se čini gotovo nepojmljivo dalekovidnom s obzirom na trenutne valuacije. Ekskluzivni oglasni inventar platforme – dostupan isključivo putem Googleovih alata za kupnju oglasa – stvara efekte zaključavanja (*lock-in effects*) koji nominalni tržišni udio transformiraju u stvarnu tržišnu moć. Kada YouTube putem algoritamskih preporuka servira **70% dnevnog vremena gledanja**, a taj se inventar može kupiti samo kroz Googleovu integriranu tehnologiju, oglašivači su suočeni s ultimativnom propozicijom: uzmi ili ostavi.
+
+---
+
+## Susret Smytheove robe-publike i algoritamske optimizacije
+
+> *"Primarna roba koju proizvode komercijalni mediji nije sadržaj, već sama publika. Sadržaj služi tek kao 'besplatan ručak' koji mami publiku da provodi vrijeme s medijima kako bi se ona mogla zapakirati i prodati oglašivačima."*
+>
+> — Dallas Smythe, *Komunikacije: Slijepa točka zapadnog marksizma* (1977)
+
+YouTubeovi algoritmi za preporuke predstavljaju najsofisticiraniju implementaciju proizvodnje auditorija kao robe koja je ikada osmišljena.
+
+Sustav preporuka platforme, koji određuje koji će se sadržaj prikazati pred **2,74 milijarde** mjesečno aktivnih korisnika, optimizira vrijednost za oglašivače koristeći:
+
+- Demografske podatke
+- Bihevioralno praćenje pregleda, klikova, pauza i dijeljenja
+- Kategorizaciju interesa iz povijesti gledanja
+- Metrike angažmana koje prioritet daju emocionalnim reakcijama
+
+Koncept "prozumerske komodifikacije" Christiana Fuchsa precizno zahvaća YouTubeovu karakterističnu dvostruku ekstrakciju: korisnici istovremeno konzumiraju sadržaj i proizvode podatke/sadržaj, stvarajući time i robu pažnje i kreativne izlaze kao komodificirana dobra.
+
+### Platformski kapitalizam (Srnicek)
+
+Djelo "Platformski kapitalizam" (2017.) Nicka Srniceka pruža strukturni okvir za razumijevanje YouTubea kao "oglašivačke platforme" koja ekstrahira korisničke podatke i prodaje oglasni prostor. Njegova središnja teza – da su podaci nova sirovina koju treba "ekstrahirati, rafinirati i koristiti na razne načine" – objašnjava nezasitan apetit YouTubea za bihevioralnim informacijama.
+
+Srnicekovo opažanje da je **"monopolizacija ugrađena u DNK platformi"** kroz mrežne učinke, prednosti akumulacije podataka i zaključavanje ekosustava, precizno opisuje YouTube; već do 2016. godine Facebook, Google i Alibaba prisvojili su polovicu globalnog digitalnog oglašavanja.
+
+### Nadzorni kapitalizam (Zuboff)
+
+Koncept "nadzornog kapitalizma" Shoshane Zuboff dodaje vremensku dimenziju koja nedostaje ranijim formulacijama. YouTube ne komodificira samo trenutnu pažnju – on ekstrahira **"bihevioralni višak"** kako bi stvorio **"prediktivne proizvode"** koji anticipiraju što će korisnici učiniti sada, uskoro i kasnije.
+
+Algoritam preporuka utjelovljuje "Velikog Drugog" (*Big Other*) prema Zuboff: sveprisutnu računalnu arhitekturu koja posreduje u potrošnji sadržaja i oblikuje ponašanje na masovnoj razini. Istraživanja pokazuju da platforme poput YouTubea ne prate samo ponašanje, već i emocije, dajući prednost sadržaju koji izaziva snažne reakcije jer emocionalni angažman dulje zadržava korisnike *online*.
+
+---
+
+## Zaokret prema Shorts formatu
+
+YouTubeov agresivan prodor u sferu kratkih videoformata demonstrira kako pritisak konkurencije prisiljava na stratešku prilagodbu, istovremeno stvarajući nove oblike eksploatacije kreatora. TikTok je do 2024. dosegao **1,9 milijardi** mjesečno aktivnih korisnika globalno, ugrožavajući dominaciju YouTubea u demografskoj skupini od 18 do 35 godina. Odgovor platforme – YouTube Shorts – sada generira prosječno **70 milijardi dnevnih pregleda** i doseže više od **2 milijarde** prijavljenih mjesečnih gledatelja.
+
+Ekonomska logika ovog poteza kombinira obrambenu izgradnju tržišnih barijera (*moat-building*) s optimizacijom prihoda. Predviđa se da će oglašavanje u kratkim videoformatima do 2025. generirati **115,75 milijardi dolara**, uz godišnji rast od 13,68%, te doseći **219,71 milijardu dolara** do 2030.
+
+### Asimetrija monetizacije
+
+Struktura monetizacije otkriva kako YouTube tijekom tranzicije platforme izvlači dodatni višak vrijednosti od kreatora.
+
+| Metrika | Dugi format | Shorts |
+|:--------|:-----------:|:------:|
+| Udio kreatora | 55% | 45% |
+| Udio YouTubea | 45% | 55% |
+| RPM (USD) | $3–6 | $0,05–0,20 |
+| Relativna zarada | 1× | 15–21× manje |
+
+: Usporedba monetizacije formata {#tbl-monetizacija}
+
+::: {.callout-note}
+## Primjer iz prakse
+Kreatorica **JennyHoyos** zaradila je samo **1.200 dolara** na **22 milijuna pregleda** Shortsa — ilustracija konkretnog utjecaja strukturnih promjena u monetizaciji.
+:::
+
+Model prihoda temeljen na zajedničkom fondu (*pool-based*) za Shorts – gdje se prihod od oglasa agregira i distribuira na temelju udjela u gledanosti umjesto izravnog plasmana oglasa – dodatno zamagljuje ekstrakciju vrijednosti. YouTube predstavlja Shorts kao "lijevak publike" prema sadržaju s višom monetizacijom, no taj narativ naturalizira razliku u ekstrakciji kao korist za kreatora, a ne kao platformsku eksploataciju.
+
+---
+
+## Digitalni rad pod algoritamskim menadžmentom
+
+Odnos platforme i kreatora utjelovljuje ono što Brooke Erin Duffy naziva **"aspiracijskim radom"** – oblikom uglavnom nekompenziranog, neovisnog rada pokretanog idealiziranom težnjom da se bude plaćen za ono što se voli. Koncept djeluje kao "i praksa i ideologija radnika" koja pomiče fokus kreatora sa sadašnjosti na budućnost, nudeći perspektivu karijere u kojoj rad i slobodno vrijeme koegzistiraju.
+
+### Raspodjela dohotka
+
+Podaci o raspodjeli dohotka ruše te aspiracijske narative. Prema anketama Linktreeja provedenim na 9.500 kreatora:
+
+| Pokazatelj | Vrijednost |
+|:-----------|:----------:|
+| Zarađuje > $50.000 godišnje | 12% |
+| Zarađuje < $15.000 godišnje | >50% |
+| Gornjih 3% zarađuje mjesečno | ≥$42.000 |
+| Donja polovica zarađuje mjesečno | <$850 |
+
+: Raspodjela prihoda među kreatorima {#tbl-raspodjela}
+
+Kada bi se prihod YouTubea ravnomjerno raspodijelio među približno **40 milijuna** aktivnih kreatora, svaki bi primio samo oko **250 dolara godišnje**. Gini koeficijent ekonomije kreatora učinio bi je najnejednakijom "nacijom" na svijetu.
+
+### Algoritam kao menadžer
+
+YouTubeov algoritam funkcionira kao menadžer u punom smislu te riječi, obavljajući svih pet klasičnih menadžerskih funkcija:
+
+| Funkcija | Implementacija |
+|:---------|:---------------|
+| Planiranje | Preporuka sadržaja |
+| Kadroviranje | Prihvatljivost za Partnerski program |
+| Zapovijedanje | Pritisak rasporeda učitavanja |
+| Koordiniranje | Integracija ekosustava formata |
+| Kontroliranje | Demonitizacija kao disciplinski mehanizam |
+
+: Pet menadžerskih funkcija algoritma {#tbl-menadzer}
+
+Kreatori ne mogu u potpunosti razumjeti što pokreće demonitizaciju, a rješavanje žalbi može trajati danima, tjednima ili mjesecima.
+
+### Kriza mentalnog zdravlja
+
+::: {.callout-caution}
+## Alarmantni podaci o sagorijevanju
+Prema studiji "Creators 4 Mental Health" (n=542):
+
+- **62%** doživljava sagorijevanje
+- **69%** je opsjednuto izvedbom sadržaja
+- **89%** nema pristup specijaliziranim resursima za mentalno zdravlje
+- **10%** imalo je suicidalne misli povezane s poslom — dvostruko više od stope odrasle populacije u SAD-u
+
+Studija "Tasty Edits" (n=29.000) utvrdila je da je **79%** kreatora iskusilo sagorijevanje, uz razliku od samo 8% između onih s niskim i visokim zaradama.
+:::
+
+### Sindikalno organiziranje
+
+Napori za sindikalnim organiziranjem suočavaju se sa strukturnim preprekama. Sindikat YouTubera (*YouTubers Union*), koji je u ožujku 2018. osnovao njemački kreator **Jörg Sprave** s oko 18.000-20.000 članova, udružio se s **IG Metallom** (najvećim europskim sindikatom s 2,2 milijuna članova) kako bi u srpnju 2019. pokrenuli kampanju "FairTube".
+
+Njihovi zahtjevi ostaju uglavnom neispunjeni:
+
+- Transparentnost algoritama
+- Ljudski kontakt za partnere
+- Neovisno rješavanje sporova
+- Zastupljenost kreatora u odlukama platforme
+
+Kada je YouTube pozvao IG Metall na razgovore, ali odbio sudjelovanje samog Spravea, sindikat je u znak solidarnosti otkazao sastanak. Geografska raspršenost, klasifikacija radnika kao neovisnih ugovaratelja, informacijske asimetrije i kontrola platforme nad svim pravilima stvaraju goleme prepreke tradicionalnom kolektivnom djelovanju.
+
+---
+
+## Briselski efekt u konfrontaciji s moći platformi
+
+Regulatorni aparat Europske unije predstavlja najambiciozniji vladin odgovor na moć platformi.
+
+### Zakon o digitalnim uslugama (DSA)
+
+DSA, u potpunoj primjeni od veljače 2024., označava YouTube kao **Vrlo veliku internetsku platformu (VLOP)**, zahtijevajući:
+
+- Izvješća o transparentnosti moderiranja sadržaja
+- Algoritamsku odgovornost (opcije feeda bez profiliranja)
+- Procjene rizika za temeljna prava i građanski diskurs
+- Obrazloženje razloga za sve odluke o moderiranju
+
+### Zakon o digitalnim tržištima (DMA)
+
+Europska komisija je u rujnu 2023. imenovala šest **"nadzornika pristupa"** (*gatekeepers*): Alphabet, Amazon, Apple, ByteDance, Meta i Microsoft — pokrivajući 22 osnovne usluge platformi.
+
+Oznaka YouTubea podvrgava ga:
+
+- Zahtjevima prenosivosti podataka
+- Pravilima protiv favoriziranja vlastitih usluga
+- Mandatima izričitog pristanka za praćenje oglašavanja
+- Obveznoj obavijesti o planiranim spajanjima
+
+### Briselski efekt
+
+Okvir "Briselskog efekta" **Anu Bradford** objašnjava kako propisi EU-a postaju *de facto* globalni standardi. Koncept opisuje jednostranu sposobnost EU-a da regulira globalna tržišta putem tržišnih mehanizama, a ne prisile.
+
+> Istraživanja su pokazala da je **75% politika privatnosti identično** za američke i EU kupce nakon GDPR-a, što demonstrira "potpuno prelijevanje". Meta je proširila GDPR zaštitu na **2,2 milijarde korisnika** globalno; Microsoft implementira "privatnost prema dizajnu" u svim proizvodima širom svijeta.
+
+Iako ostaje neizvjesno hoće li DSA proizvesti slične globalne učinke – The Economist sugerira da bi se platforme mogle oduprijeti "gubitku suvereniteta nad digitalnim teritorijima" – regulatorni vektor je jasan.
+
+### Privatno upravljanje: Adpocalypse i GARM
+
+Privatno upravljanje putem pritiska oglašivača može oblikovati govor učinkovitije od državne regulacije. Ciklusi "Adpocalypse" koji su započeli u ožujku 2017. – kada je više od **250 velikih brendova** povuklo oglašavanje nakon izvješća Wall Street Journala o oglasima uz ekstremistički sadržaj – pokazuju kako briga za sigurnost brenda stvara *de facto* regulaciju govora bez vladine intervencije.
+
+**Globalni savez za odgovorne medije (GARM)**, osnovan 2019., razvio je industrijske kategorije sadržaja koje utječu na monetizaciju: njihov "Brand Safety Floor" s 11 kategorija smanjio je pojavljivanje oglasa uz štetan sadržaj sa **6,1% u 2020.** na **1,7% u 2023.**
+
+::: {.callout-warning}
+## Raspuštanje GARM-a
+Iznenadno raspuštanje GARM-a **8. kolovoza 2024.** – samo dva dana nakon što je X (bivši Twitter) podnio antimonopolsku tužbu – otkriva krhkost mehanizama privatnog upravljanja. Industrijski promatrači nazvali su to **"opasnim presedanom"**.
+:::
+
+---
+
+## Hrvatska kao periferija u doba platformi
+
+Hrvatski slučaj jasno osvjetljava kako tržišta malih jezika doživljavaju platformski kapitalizam kao **strukturni nedostatak**.
+
+### CPM nerazmjer
+
+| Tržište | CPM (USD) | Faktor |
+|:--------|:---------:|:------:|
+| 🇭🇷 Hrvatska | $1,75–1,94 | 1× |
+| 🇬🇧 UK | >$7,00 | ~4× |
+| 🇺🇸 SAD | $11,95–15,34 | ~7× |
+| 🇦🇺 Australija | $36,21 | ~20× |
+
+: Usporedba CPM stopa {#tbl-cpm}
+
+Ovaj nerazmjer od približno 6 do 8 puta znači da hrvatski kreatori trebaju šest do osam puta više pregleda kako bi zaradili ekvivalentan prihod od oglasa – što je strukturna nemogućnost s obzirom na populaciju Hrvatske od **4 milijuna ljudi**.
+
+### Digitalne vijesti u Hrvatskoj
+
+Izvješće o digitalnim vijestima instituta Reuters za 2024. otkriva da je YouTube druga najveća društvena platforma za vijesti u Hrvatskoj s **24%**, iza Facebooka koji drži **49%**.
+
+Što se tiče potrošnje vijesti među populacijom mlađom od 35 godina:
+
+- **44%** osoba u dobi od 18 do 24 godine koristi društvene mreže kao glavni izvor vijesti
+- **84%** koristi internet kao primarni način praćenja vijesti
+- **61%** izbjegava vijesti — među najvišima u istočnoj Europi
+- Povjerenje palo s **45% (2021.)** na **32% (2024.)**
+
+### JoomBoos: Korporativno preuzimanje indie prostora
+
+Hrvatski YouTube ekosustav ne demonstrira demokratizirano stvaranje sadržaja, već **korporativno preuzimanje "indie" prostora**.
+
+**JoomBoos**, kojeg je u studenom 2015. pokrenuo 24sata (u vlasništvu austrijske Styria Media Group), eksplicitno je ciljao "definirati i organizirati YouTube scenu u Hrvatskoj" – scenu koju su opisali kao "prilično nerazvijenu i loše organiziranu".
+
+| Pokazatelj | Vrijednost |
+|:-----------|:----------:|
+| Pretplatnici | 1,1 milijun |
+| Udio populacije HR | ~25% |
+| Vrijeme do profitabilnosti | 3 mjeseca |
+| Nagrada | INMA Global Media 2017. |
+
+: JoomBoos u brojkama {#tbl-joomboos}
+
+JoomBoos funkcionira kao strukturirana operacija upravljanja talentima koja regrutira kreatore putem natjecanja poput "Videostara" (s više od 1.500 prijava), potpisuje s njima produkcijske ugovore i koristi ih kao ambasadore brendova. Kreator **Davor Gerbus** započeo je neovisno 2014., ali ga je JoomBoos potpisao unutar jedne godine, nakon čega je postao ambasador Coca-Cole i glumio u originalnim dramskim serijama.
+
+Obrazac se ponavlja diljem hrvatskog kreatorskog krajolika: većina uspješnih hrvatskih YouTubera su ili ugovorni talenti JoomBoosa, otkriveni putem njihovih natjecanja, ili rade s drugim MCN strukturama.
+
+---
+
+## Kamo odlazi oglašivački novac
+
+Izvješća AdEx udruge IAB Croatia precizno dokumentiraju ekosustav digitalnog oglašavanja. Ukupno hrvatsko tržište online oglašavanja doseglo je više od **155 milijuna eura** u 2024., uz rast od **16,4%** na godišnjoj razini.
+
+| Segment | Udio | Vrijednost |
+|:--------|:----:|:----------:|
+| Display oglašavanje | 36,7% | ~€57M |
+| Društvene mreže | 34,6% | ~€54M |
+| Tražilice | 17,3% | ~€27M |
+| Influencerski marketing | 5,6% | ~€8,7M |
+
+: Struktura hrvatskog digitalnog oglašivačkog tržišta {#tbl-trziste}
+
+::: {.callout-important}
+## Ekstrakcija vrijednosti
+- **53%** video oglašavanja odlazi YouTubeu
+- Dodatnih **29%** odlazi Facebooku
+- **82%** potrošnje na video oglase odlazi globalnim platformama
+- Procjena: **€95–100M (60–65%)** godišnje odlazi globalnim platformama
+- Samo **€55–60M (35–40%)** ostaje lokalnim izdavačima
+:::
+
+Ova dinamika ekstrakcije intenzivira strukturne pritiske na hrvatske kreatore. Ukupno hrvatsko tržište oglašavanja od **266 milijuna eura** (2023.) ne može podržati onu vrstu ekonomije kreatora koja nastaje na tržištima poput SAD-a, gdje je samo digitalno oglašavanje premašilo **225 milijardi dolara**.
+
+### Uspješni hrvatski kreatori
+
+Hrvatski kreatori koji uspijevaju čine to potpunim **nadilaženjem jezične barijere**:
+
+| Kreator | Pretplatnici | Strategija |
+|:--------|:------------:|:-----------|
+| **2CELLOS** | 6,39M | Instrumentalni sadržaj, globalna publika |
+| **agadmator** | 1,5M+ | Šahovski komentari na engleskom |
+
+: Uspješni hrvatski kreatori {#tbl-uspjesni}
+
+Njihov sadržaj je instrumentalan ili na engleskom jeziku, publika globalna, a procijenjeni prihodi od turneja (2CELLOS) iznose **60.000–200.000 dolara po koncertu**.
+
+---
+
+## Balkanska regionalna ekonomija sadržaja
+
+Zajednički jezični prostor hrvatskog, srpskog i bosanskog jezika – međusobno razumljivih jezika kojima govori otprilike **17 do 20 milijuna ljudi** diljem bivše Jugoslavije i dijaspore – stvara istinski regionalnu YouTube ekonomiju.
+
+> Tvrdnja da "srpski pjevači vladaju hrvatskim YouTubeom" nije hiperbola: srpski izvođači i bosanski reperi poput **Jale Brata** i **Bube Corellija** redovito su na vrhu hrvatskih trending ljestvica.
+
+**Bassivity Digital**, osnovan u Beogradu 1999., djeluje kao najveća platforma urbane glazbe na Balkanu – opisana kao "prva diskografska kuća koja objavljuje glazbu diljem balkanske regije nakon sukoba, gradeći mostove univerzalnim jezikom glazbe". Njihovi umjetnici postižu prekogranični doseg koji pojedinačna nacionalna tržišta ne bi mogla održati.
+
+Fenomen se širi izvan glazbe: bosanski influenceri održavaju "publiku koja seže izvan nacionalnih granica, dopirući do Srbije, Hrvatske i zajednica dijaspore diljem svijeta".
+
+### Paradoks selektivne propusnosti
+
+| Vrsta sadržaja | Prekogranični doseg |
+|:---------------|:-------------------:|
+| 🎵 Glazba | ✅ Visok |
+| 🎬 Zabava | ✅ Visok |
+| 🗳️ Politika | ❌ Nacionalno ograničen |
+
+: Selektivna propusnost platformskog kapitalizma {#tbl-propusnost}
+
+Kontrast između integracije zabave/glazbe i političke fragmentacije otkriva selektivnu propusnost platformskog kapitalizma: kulturni sadržaj koji generira prihod od oglašavanja slobodno teče preko granica, dok politički diskurs koji bi mogao komplicirati sigurnost brenda ostaje kompartmentaliziran.
+
+---
+
+## YouTube i hrvatska politika 2024.
+
+Hrvatska "superizborna godina" 2024. – s parlamentarnim izborima u travnju, izborima za Europski parlament u lipnju i predsjedničkim izborima u prosincu – demonstrirala je rastuću političku ulogu društvenih medija uz kontinuiranu dominaciju tradicionalnih medija.
+
+### Digitalna mobilizacija
+
+Premijer **Andrej Plenković** otvorio je TikTok račun samo tri tjedna prije parlamentarnih izbora i postao najpopularniji političar na platformi prema angažmanu:
+
+- 55.923 lajka
+- 5.276 komentara
+- 22.052 dijeljenja
+
+Najupečatljiviji razvoj događaja bila je **"Gen Z lista" Nine Skočak** za izbore za Europski parlament. Ova 26-godišnja TikTok influencerica s više od **200.000 pratitelja**, diplomom novinarstva/politologije i magisterijem iz europske politike, kreirala je prvu hrvatsku neovisnu Gen Z izbornu listu s 12 kandidata mlađih od 30 godina. Njezini videozapisi koji objašnjavaju izborne procese prikupili su **12,6 milijuna lajkova**, demonstrirajući mobilizacijski potencijal društvenih mreža: prikupila je 5.000 potpisa isključivo aktivacijom pratitelja.
+
+### Celebrity populizam
+
+Populistička dinamika koju su identificirali istraživači Sveučilišta u Zagrebu, **Marijana Grbeša** i **Berto Šalaj** – "celebrity populizam" koji kombinira populističke poruke s kulturom slavnih – manifestira se kroz figure poput saborskog zastupnika Mosta **Marina Miletića**, kojeg akademska zajednica opisuje kao "populističkog političara-influencera" koji je objavio više od **1.400 YouTube videa** u sedam godina.
+
+Njegova kombinacija političke, vjerske i privatne persone putem Instagram Storiesa utjelovljuje platformski nativni populizam.
+
+### Televizija ostaje dominantna
+
+Ipak, televizija ostaje dominantna:
+
+- **TV** kao izvor vijesti: **63%** Hrvata
+- **Društvene mreže** kao izvor vijesti: **47%** Hrvata
+
+HRT je organizirao glavne izborne debate; tradicionalni nakladnici dopiru do većine birača. Društveni mediji nadopunjuju, a ne zamjenjuju tradicionalno medijsko filtriranje (*gatekeeping*) – što je značajan kontrast u odnosu na Srbiju, gdje kontrola predsjednika Vučića nad svim privatnim TV mrežama s nacionalnom pokrivenošću prisiljava oporbene glasove na YouTube i neovisne portale.
+
+---
+
+## Zaključak: Moć platformi i njezine periferije
+
+::: {.key-finding}
+### Trilateralni aparat ekstrakcije
+
+Ova analiza razotkriva YouTube kao sveobuhvatni aparat ekstrakcije koji operira kroz **tri istovremena mehanizma**:
+
+1. **Komodifikacija pažnje** — pakiranje angažmana korisnika za prodaju oglašivačima
+2. **Ekstrakcija bihevioralnog viška** — generiranje algoritamskih prediktivnih proizvoda
+3. **Eksploatacija digitalnog rada** — asimetrična kompenzacija kreatora pod algoritamskim menadžmentom
+:::
+
+Teorijski okviri Smythea, Srniceka, Zuboff te Wasko i Ericksona konvergiraju u opisu platforme koja je postigla ono što regulatori sve više prepoznaju kao **nezakonitu monopolnu moć** kroz vertikalnu integraciju tehnologije pretraživanja, videa i oglašavanja.
+
+### Hrvatski slučaj
+
+Hrvatski slučaj pokazuje kako ovaj globalni sustav proizvodi **diferencirane lokalne učinke**. Tržišta malih jezika doživljavaju platformski kapitalizam ne kao ujednačavanje prilika, već kao strukturni nedostatak:
+
+- Niži CPM-ovi prisiljavaju na alternativne strategije monetizacije
+- Ovisnost o etabliranim medijskim kućama
+- Ekstrakcija oglašivačke vrijednosti primarno se slijeva Googleu
+
+Iznos od **95 do 100 milijuna eura** koji hrvatski oglašivači godišnje šalju globalnim platformama predstavlja znatan dio vrijednosti pažnje male ekonomije koji se trajno izvozi.
+
+### Regulatorni izazovi
+
+Regulatorni odgovor bifurkira između **vladinih mjera** (EU-ov DSA/DMA) i **privatnog upravljanja** (GARM, standardi sigurnosti brenda). Obje strane suočavaju se s ograničenjima:
+
+- Državna regulacija nailazi na izazove provedbe i neizvjesnost "Briselskog efekta"
+- Privatno upravljanje pokazuje se ranjivim na pravne izazove, kao što pokazuje raspuštanje GARM-a
+
+> **Najefikasnija regulacija govora na YouTubeu trenutačno operira kroz demonitizaciju vođenu oglašivačima, a ne vladinim mandatima** — nalaz sa značajnim implikacijama za demokratsku teoriju.
+
+### Završna riječ
+
+Ono što proizlazi jest slika YouTubea ne kao neutralne infrastrukture, već kao **političko-ekonomske institucije** s vlastitim interesima, dinamikom moći i distribucijskim posljedicama. Godišnji prihod platforme od **36,1 milijardu dolara** ovisi o održavanju asimetričnih odnosa i s kreatorima (koji primaju 45–55% od dijela stvorene vrijednosti) i s korisnicima (čija pažnja i bihevioralni podaci čine stvarnu robu).
+
+::: {.callout-tip}
+## Ključna spoznaja
+Razumijevanje YouTubea kroz okvire političke ekonomije komunikacija otkriva te dinamike kao **strukturne, a ne slučajne** — kao predvidljive ishode logike platformskog kapitalizma, a ne kao ispravljive aberacije unutar inače neutralnog sustava.
+:::
