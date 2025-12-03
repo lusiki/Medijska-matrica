@@ -1,5 +1,5 @@
 ---
-title: "07-prirucnik"
+title: "07-YouTube"
 format:
   html:
     theme: cosmo
