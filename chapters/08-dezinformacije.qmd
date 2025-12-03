@@ -31,7 +31,7 @@ format:
 
 # Sažetak
 
-Ovaj izvještaj dokumentira transformaciju Googlea iz pružatelja usluga u **infrastrukturnog suverena** hrvatskog digitalnog medijskog ekosustava kroz sveobuhvatan sustav ekonomske ekstrakcije, algoritamskog čuvarenja pristupa i tehnološke ovisnosti koji je fundamentalno restrukturirao uvjete novinarske proizvodnje, distribucije informacija i demokratskog diskursa. Kontrolom pretraživanja sa tržišnim udjelom od 97,02 posto, mobilnih operacijskih sustava kroz dominaciju Androida, web preglednika Chrome, oglašivačke tehnologije putem vertikalne integracije kroz cijeli programatski lanac te sve više sustava umjetne inteligencije koji sintetiziraju sadržaj bez kompenziranja kreatora, Google izvršava ono što predstavlja **privatno upravljanje** hrvatskom digitalnom javnom sferom.
+Ovo poglavlje daje prikaz transformacije Googlea iz pružatelja usluga u **infrastrukturnog suverena** hrvatskog digitalnog medijskog ekosustava kroz sveobuhvatan sustav ekonomske ekstrakcije, algoritamskog čuvarenja pristupa i tehnološke ovisnosti koji je fundamentalno restrukturirao uvjete novinarske proizvodnje, distribucije informacija i demokratskog diskursa. Kontrolom pretraživanja sa tržišnim udjelom od 97,02 posto, mobilnih operacijskih sustava kroz dominaciju Androida, web preglednika Chrome, oglašivačke tehnologije putem vertikalne integracije kroz cijeli programatski lanac te sve više sustava umjetne inteligencije koji sintetiziraju sadržaj bez kompenziranja kreatora, Google izvršava ono što predstavlja **privatno upravljanje** hrvatskom digitalnom javnom sferom.
 
 Politička ekonomska analiza otkriva sistematsku ekstrakciju vrijednosti koja djeluje kroz više dimenzija. Google i Meta zajedno kontroliraju preko 70 posto hrvatskog tržišta digitalnog oglašavanja vrijednog 222 milijuna eura, pri čemu Google kontrolira procijenjenih 96 milijuna eura samo u oglašavanju pretraživanja. Vertikalno integrirani ad-tech lanac, gdje Google istovremeno predstavlja kupce, prodavače i upravlja burzom, ekstrahira između 49 i 70 posto oglašivačkih izdataka prije nego izdavači prime plaćanje. Hrvatske redakcije proizvode sadržaj koji privlači publiku, ali Googleovi intermedijalni sustavi zarobljavaju većinu ekonomske vrijednosti, ostavljajući izdavačima opadajuće prihode unatoč rastućem prometu.
 
@@ -49,7 +49,7 @@ Googleova inicijativa "Rasti s Googleom" koja je između 2017. i 2020. obučila 
 
 Analiza zaključuje da hrvatski mediji ne djeluju unutar konkurentskog tržišta već unutar sustava **infrastrukturnog imperijalizma** gdje sudjelovanje u digitalnom društvu zahtijeva kretanje kroz infrastrukturu u Googleovom vlasništvu, generiranje podataka koji hrane Googleov model nadzornog kapitalizma i natjecanje pod algoritamskim pravilima koja sistematski favoriziraju platformu nad izdavačima. Bez agresivne regulatorne intervencije Europske unije, strukturnih pravnih sredstava uključujući potencijalnu prodaju Chromea i razdvajanje ad-tech lanca te reimaginirane digitalne javne infrastrukture, hrvatski medijski ekosustav riskira postati ono što ovaj izvještaj naziva "šupljom ljuskom", skupom ovisnih proizvođača sadržaja koji hrane suveren umjetne inteligencije koji služi interesima Alphabet Inc. umjesto hrvatskom demokratskom diskursu.
 
-# Uvod: Digitalna ograđa hrvatske javne sfere
+# Digitalna ograda hrvatske javne sfere
 
 Transformacija hrvatskog medijskog krajolika tijekom posljednja dva desetljeća nije rezultirala decentraliziranom, demokratiziranom javnom sferom koju su zamišljali rani zagovornici interneta. Umjesto toga, ekosustav se sažeo u visoko stratificiranu "platformiziranu" ekonomiju gdje fundamentalne uvjete proizvodnje, distribucije i monetizacije sve više diktiraju transnacionalni monopoli, najznačajnije Alphabet Inc., matična kompanija Googlea. Ovaj izvještaj pruža iscrpnu, politički ekonomski utemeljenu analizu Googleovih operacija u Hrvatskoj, argumentirajući da kompanija ne funkcionira samo kao neutralni pružatelj usluga ili tržišni sudionik već kao infrastrukturni suveren koji izvršava duboku strukturnu moć nad hrvatskim digitalnim ekosustavom.
 
@@ -91,7 +91,7 @@ Dodatno, Google dobiva podatke o kuratorskim odlukama izdavača, otkrivajući š
 
 Metafora "zlatnog kaveza" zahvaća kako financijalno olakšanje dolazi s nevidljivim ograničenjima. Izdavači postaju ovisni o održavanju dobrih odnosa s Googleom, čineći zagovaranje za strukturne reforme strateškim rizikom. Hrvatsko novinarsko društvo i HUDI nalaze se u "frenemies" odnosu, nemogući antagonizirati infrastrukturnog pružatelja dok znajući da ta infrastruktura ih sistematski stavlja u nepovoljan položaj.
 
-# Ekonomska baza: Oglašavanje, podaci i duopol
+# Oglašavanje, podaci i duopol
 
 Ekonomska osnova komercijalnog medijskog sustava Hrvatske historijski je bilo oglašavanje. No, migracija publike prema digitalnim kanalima otkačila je kreaciju sadržaja od generiranja prihoda. HUDI i IAB Croatia podaci otkrivaju tržište u fluksu. Hrvatsko online tržište oglašavanja nastavlja rasti, procijenjeno na preko 155 milijuna eura u 2024. godini, što predstavlja porast od 16,4 posto u odnosu na prethodnu godinu. No, ovaj agregatni rast prikriva distribucijsku krizu.
 
@@ -249,7 +249,7 @@ Mobilno-prvo ponašanje posebno među mlađim kohortama pokazuje različite obra
 
 Projekcija sugerira da je amortizator izravnog pristupa koji štiti hrvatske izdavače vremenski ograničen. Unutar 10 do 15 godina, generacijska promjena mogla bi eliminirati ovu distinktivnu hrvatsku karakteristiku, ostavljajući izdavače jednako ovisne o Googleovim algoritmima kao njihove zapadnoeuropske kolege. Čak i za izdavače koji trenutno profitiraju od izravnog prometa, ovo samo ne može osigurati održivost. Izravni promet predstavlja postojeće publike, ali rast publike esencijalan za poslovnu održivost zahtijeva vidljivost u pretraživanju kontroliranu od Googlea, doseg u društvenim medijima kontroliran od Mete i TikToka te selekciju Discover feeda kontroliranu od Googlea.
 
-# Zaključak: Put naprijed
+# Put naprijed
 
 Ova analiza dokumentirala je kako Google funkcionira u Hrvatskoj ne kao tržišni sudionik već kao infrastrukturni suveren koji izvršava moć nad digitalnim teritorijom analognu državnoj suverenosti nad fizičkim teritorijem. Google kontrolira distribucijsku infrastrukturu kroz pretraživanje sa 97,02 posto tržišnog udjela, Android kao mobilni operacijski sustav čuvar, Chrome sa 64 do 72 posto globalnog udjela za kontrolu podataka i standarda na razini preglednika te YouTube sa 82,7 posto dosega u Hrvatskoj kao monopol video sadržaja.
 
