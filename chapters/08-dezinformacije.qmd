@@ -29,7 +29,7 @@ format:
         \fancyhead[R]{Google i hrvatski medijski ekosustav}
 ---
 
-# Sažetak
+# Uvod
 
 Ovo poglavlje daje prikaz transformacije Googlea iz pružatelja usluga u **infrastrukturnog suverena** hrvatskog digitalnog medijskog ekosustava kroz sveobuhvatan sustav ekonomske ekstrakcije, algoritamskog čuvarenja pristupa i tehnološke ovisnosti koji je fundamentalno restrukturirao uvjete novinarske proizvodnje, distribucije informacija i demokratskog diskursa. Kontrolom pretraživanja sa tržišnim udjelom od 97,02 posto, mobilnih operacijskih sustava kroz dominaciju Androida, web preglednika Chrome, oglašivačke tehnologije putem vertikalne integracije kroz cijeli programatski lanac te sve više sustava umjetne inteligencije koji sintetiziraju sadržaj bez kompenziranja kreatora, Google izvršava ono što predstavlja **privatno upravljanje** hrvatskom digitalnom javnom sferom.
 
