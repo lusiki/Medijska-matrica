@@ -1,5 +1,383 @@
 ---
-title: "09-zakljucak"
-format: html
+title: "TikTok kao platformski medijski sustav"
+subtitle: "Sveobuhvatna analiza tehničke infrastrukture, ekonomskog modela, kulturnog utjecaja i geopolitičkih izazova"
 ---
 
+```{=html}
+<style>
+:root {
+  --accent-color: #00f2ea;
+  --accent-secondary: #ff0050;
+  --text-muted: #6c757d;
+  --border-radius: 8px;
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
+  --gradient-tiktok: linear-gradient(135deg, #00f2ea 0%, #ff0050 100%);
+}
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.stat-box {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-sm);
+  border-left: 4px solid var(--accent-color);
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 2.2rem;
+  font-weight: 700;
+  background: var(--gradient-tiktok);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: block;
+  line-height: 1.2;
+}
+
+.stat-label {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 0.5rem;
+}
+
+.highlight-box {
+  background: linear-gradient(135deg, rgba(0, 242, 234, 0.1) 0%, rgba(255, 0, 80, 0.1) 100%);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border: 1px solid rgba(0, 242, 234, 0.3);
+}
+
+.key-insight {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  margin: 2rem 0;
+  box-shadow: var(--shadow-md);
+}
+
+.key-insight h4 {
+  color: white;
+  margin-top: 0;
+  border: none;
+  padding: 0;
+}
+
+.timeline-item {
+  border-left: 3px solid var(--accent-color);
+  padding-left: 1.5rem;
+  margin-left: 0.5rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 0;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: var(--accent-secondary);
+}
+
+.timeline-date {
+  font-weight: 600;
+  color: var(--accent-secondary);
+  font-size: 0.9rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  box-shadow: var(--shadow-sm);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+thead {
+  background: var(--gradient-tiktok);
+  color: white;
+}
+
+th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+td {
+  padding: 0.875rem 1rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+tbody tr:hover {
+  background-color: rgba(0, 242, 234, 0.05);
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+blockquote {
+  border-left: 4px solid var(--accent-secondary);
+  background: linear-gradient(135deg, #fff5f7 0%, #fff 100%);
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 var(--border-radius) var(--border-radius) 0;
+  font-style: italic;
+  color: #495057;
+}
+
+.section-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e9ecef;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+@media (max-width: 768px) {
+  .stat-number { font-size: 1.8rem; }
+  .stat-grid { grid-template-columns: 1fr; }
+}
+</style>
+```
+
+::: {.callout-note appearance="minimal"}
+## Sažetak poglavlja
+
+TikTok je temeljito preoblikovao globalnu medijsku scenu svojom algoritamskom arhitekturom usmjerenom na sadržaj, stvorivši platformu koja daje prednost relevantnosti nad odnosima i omogućuje neviđeno otkrivanje sadržaja za 1,59 milijardi korisnika diljem svijeta. Do prosinca 2025., TikTok djeluje pod egzistencijalnim regulatornim pritiskom — s potvrđenom zabranom od strane Vrhovnog suda SAD-a i tekućim pregovorima o prodaji — dok istodobno postiže tržišnu dominaciju, s matičnom tvrtkom ByteDance koja doseže valuaciju od 480 milijardi dolara, nadmašujući Metu kao najveću svjetsku tvrtku društvenih medija po prihodu.
+:::
+
+## Uvod: Platforma koja je redefinirala medijski krajolik
+
+TikTok predstavlja jedinstven fenomen u povijesti medija — platformu koja je postigla dominantan kulturni utjecaj dok je istodobno djelovala pod stalnom egzistencijalnom prijetnjom najvećeg svjetskog gospodarstva. Njegova algoritamska arhitektura demokratizirala je otkrivanje sadržaja na načine koji su preoblikovali glazbenu industriju, izdavaštvo, konzumaciju vijesti i političku komunikaciju.
+
+::: {.stat-grid}
+::: {.stat-box}
+[1,59 mlrd]{.stat-number}
+[aktivnih korisnika mjesečno]{.stat-label}
+:::
+
+::: {.stat-box}
+[480 mlrd $]{.stat-number}
+[valuacija ByteDancea]{.stat-label}
+:::
+
+::: {.stat-box}
+[95 min]{.stat-number}
+[prosječno dnevno korištenje]{.stat-label}
+:::
+
+::: {.stat-box}
+[33,2 mlrd $]{.stat-number}
+[GMV TikTok Shopa 2024.]{.stat-label}
+:::
+:::
+
+Ova analiza ispituje TikTok kroz pet međusobno povezanih dimenzija: njegovu algoritamsku infrastrukturu, ekonomski model, kulturne dinamike, izazove upravljanja i buduće trajektorije. Značaj platforme proteže se daleko izvan korisničkih metrika. TikTokov algoritam For You Page redefinirao je otkrivanje sadržaja napuštanjem modela društvenog grafa koji je dominirao prethodnim platformama. Njegov Creator Rewards Program restrukturirao je ekonomiju digitalnog rada, dok je njegovo kinesko vlasništvo transformiralo debate o digitalnoj suverenosti u pitanja zakonodavstva o nacionalnoj sigurnosti diljem demokratskih nacija.
+
+## Algoritamska arhitektura koja je prepisala otkrivanje sadržaja
+
+TikTokov preporučiteljski sustav funkcionira fundamentalno drugačije od naslijeđenih platformi društvenih medija. Dok su Facebook i Instagram gradili svoje arhitekture oko "društvenog grafa" — dajući prioritet sadržaju od računa koje korisnici prate — TikTok je konstruirao "graf interesa" koji servira sadržaj na temelju bihevioralnih signala bez obzira na broj pratitelja kreatora ili postojeće društvene veze. Ova arhitektonska odluka demokratizirala je viralnost na način bez presedana: kreatori s nula pratitelja mogu postići milijune pregleda ako njihov sadržaj algoritamski rezonira s publikom.
+
+### Mehanizam stranice "Za tebe"
+
+Algoritam For You Page integrira kolaborativno filtriranje s analizom temeljenom na sadržaju, obrađujući preko milijardu pregleda videozapisa dnevno kroz modele strojnog učenja koji procjenjuju kako ponašanje korisnika tako i atribute videozapisa. Korisničke interakcije nose najveću težinu, pri čemu stopa dovršetka videozapisa služi kao najvažniji signal. Algoritam prati ne samo gledaju li korisnici videozapise, već kako ih gledaju — ponovni pregledi, pauze i angažman u kritičnim prvim trima sekundama snažno utječu na naknadne preporuke. Videozapisi koji ne uspijevaju uhvatiti trenutnu pažnju suočavaju se s algoritamskom deprioritizacijom.
+
+| Signal | Težina | Opis |
+|--------|--------|------|
+| Stopa dovršetka videozapisa | Najviša | Postotak pogledanog videozapisa |
+| Ponovni pregledi | Vrlo visoka | Koliko puta korisnik ponovno gleda video |
+| Prvih 3 sekunde | Visoka | Zadržavanje pažnje na početku |
+| Dijeljenje | Visoka | Aktivno širenje sadržaja |
+| Komentari | Srednja | Razina angažmana |
+| Lajkovi | Srednja | Osnovna metrika interakcije |
+| Praćenje | Niža | Manje značajno od angažmana |
+
+: Hijerarhija algoritamskih signala na TikToku {.striped .hover}
+
+Signali sadržaja uključujući hashtagove, opise, zvukove i jesu li videozapisi izvorno kreirani na TikToku također oblikuju preporuke. Platforma održava strategiju particioniranih podatkovnih košara i hijerarhijsko stablo oznaka interesa za precizno podudaranje publike. Trendovski zvukovi dobivaju algoritamsku prednost — kada korisnici angažiraju sadržaj s određenim audio zapisom, algoritam prikazuje sličan sadržaj koji koristi taj zvuk, stvarajući umrežene klastere sadržaja koji omogućuju viralno širenje zvuka.
+
+### Ekologija podataka i infrastruktura
+
+TikTok prikuplja opsežne bihevioralne podatke, podatke na razini uređaja i mrežne podatke. Osim standardnih metrika angažmana, platforma prikuplja ID-ove uređaja, obrasce pritisaka tipki, stanje baterije, audio postavke, nazive aplikacija i datoteka te detalje mrežne veze. Politika privatnosti tvrtke priznaje prikupljanje biometrijskih identifikatora i biometrijskih informacija uključujući otiske lica i glasovne otiske, iako TikTok tvrdi da se ti podaci ne koriste za jedinstvenu identifikaciju osoba.
+
+Ovo prikupljanje podataka generiralo je značajnu kontroverzu. Nagodba u klasnoj tužbi od 92 milijuna dolara u veljači 2021. riješila je optužbe za kršenje Zakona o privatnosti biometrijskih informacija Illinoisa. Istraživač sigurnosti Felix Krause otkrio je da TikTokov preglednik unutar aplikacije može bilježiti pritiske tipki, dok je neovisna tvrtka Malcore ocijenila TikTok najgorim od 23 testirane aplikacije za praćenje trećih strana. S druge strane, Citizen Lab ustanovio je da TikTokove prakse podataka nisu iznimne u usporedbi s industrijskim normama, a Georgia Tech zaključio je da platforma ne prikuplja značajno više podataka od Facebooka.
+
+### Projekt Texas i Projekt Clover
+
+Kao odgovor na zabrinutosti o nacionalnoj sigurnosti, TikTok je pokrenuo Projekt Texas za SAD i Projekt Clover za Europu — višemilijardske inicijative za lokalizaciju korisničkih podataka i uspostavu nadzora trećih strana.
+
+::: {.timeline-item}
+[**Projekt Texas**]{.timeline-date}
+
+U okviru Projekta Texas, TikTok je uložio preko 2 milijarde dolara kako bi usmjerio 100% američkog prometa kroz Oracle Cloud Infrastructure, osnovao podružnicu TikTok US Data Security Inc. s preko 2.000 zaposlenika u SAD-u te uspostavio procese inspekcije izvornog koda.
+:::
+
+::: {.timeline-item}
+[**Projekt Clover**]{.timeline-date}
+
+Projekt Clover uključuje ulaganje od 12 milijardi eura tijekom deset godina za uspostavu europskih podatkovnih centara u Dublinu i Norveškoj, s NCC Group kao neovisnim sigurnosnim monitorom. Do kraja 2025., norveška postrojenja postala su operativna, pogonjena 100% obnovljivom hidroenergijom.
+:::
+
+Unatoč tim ulaganjima, Bidenova administracija konačno je odbacila Projekt Texas kao nedostatan. Kritičari primjećuju da je inicijativa patila od problema samonadzora — neovisni odbori upravljanja ostali su neodobreni, brisanje naslijeđenih podataka bilo je nepotpuno, a tehničke "sandbox wrapper" zaštite nikada nisu izgrađene. Jednoglasna presuda Vrhovnog suda iz siječnja 2025. kojom se potvrđuje zakonodavstvo o zabrani efektivno je potvrdila te zabrinutosti.
+
+## Ekonomski model i restrukturiranje rada kreatora
+
+TikTokov model prihoda kombinira dominaciju oglašavanja s agresivnom ekspanzijom u socijalnu trgovinu. Platforma je generirala približno 23 milijarde dolara prihoda u 2024. godini, s oglašavanjem koje čini otprilike 77% ukupnog prihoda. Prihod od oglašavanja u SAD-u dosegao je procijenjenih 7,7 do 11 milijardi dolara, s projekcijama od 33,1 milijarde dolara globalno do 2025.
+
+Oglašivačka arhitektura nudi višestruke formate: in-feed oglase koji se stapaju s organskim sadržajem, TopView cjeloekranske oglase koji se pojavljuju pri pokretanju aplikacije, Spark Ads koji promoviraju organske objave i Branded Hashtag Challenges. TikTok isporučuje 1,8 puta više konverzija nego što bi njegov udio u potrošnji na oglase sugerirao, potičući interes oglašivača unatoč kontinuiranoj regulatornoj nesigurnosti.
+
+### TikTok Shop kao dominantna platforma socijalne trgovine
+
+TikTokov pivot prema socijalnoj trgovini dramatično je ubrzao tijekom 2024. i 2025. godine. TikTok Shop postigao je 33,2 milijarde dolara u globalnom GMV-u 2024. godine, što predstavlja preko 200% godišnjeg rasta. Samo američke operacije generirale su 9 milijardi dolara GMV-a, povećanje od 650% u samo 16 mjeseci od pokretanja u rujnu 2023. Prema Earnest Analyticsu, TikTok Shop dominira s 68,1% GMV-a socijalne kupovine u SAD-u, dok najbliži konkurent Whatnot ima 31%, a Instagram, Facebook i Flip App zajedno drže manje od 1%.
+
+Affiliate marketing program platforme nudi kreatorima stope provizije koje tipično iznose 10 do 30 posto, s mogućnošću do 80 posto ovisno o prodavaču, uz 30-dnevnu zaštitu provizije. Kratki video sadržaj pokreće 58% američkog TikTok Shop GMV-a, dok trgovine unutar aplikacije doprinose 32%, a live shopping — koji je još u ranoj fazi na zapadnim tržištima — čini 10%.
+
+### Od Creator Funda do Creator Rewards Programa
+
+TikTokov izvorni Creator Fund, pokrenut u srpnju 2020. s 200 milijuna dolara i obećanjima rasta na milijardu dolara, postao je široko kritiziran zbog neodrživih ekonomskih pokazatelja. Fond je djelovao po modelu fiksnog bazena: kako se pridruživalo više kreatora, plaćanja po pregledu su padala. Prijavljeni RPM-ovi (prihod na tisuću pregleda) kretali su se od 0,02 do 0,04 dolara, što znači da je milijun pregleda donosio približno 20 do 40 dolara. Kreator Hank Green, s 8 milijuna pratitelja i 600 milijuna lajkova, prijavio je zaradu od 2,5 centa na tisuću pregleda.
+
+Creator Rewards Program, pokrenut u ožujku 2024., temeljito je restrukturirao monetizaciju. RPM-ovi su porasli na 0,40 do 1,00 dolara za standardne kreatore, dok premium niše poput financija i umjetne inteligencije ostvaruju 2,00 do 2,50 dolara i više. Međutim, program zahtijeva originalne videozapise od najmanje 60 sekundi — strateški potez za poticanje dužeg sadržaja. Utjecaj je bio značajan: ukupni prihod kreatora porastao je 250% unutar šest mjeseci, a broj kreatora koji zarađuju 50.000 dolara i više mjesečno gotovo se udvostručio.
+
+Dodatna monetizacija uključuje TikTok Pulse koji nudi 50/50 podjelu prihoda za top 4% viralnog sadržaja, LIVE virtualne poklone gdje TikTok zadržava 50% vrijednosti poklona, te Creator Marketplace za partnerstva s brendovima. Procijenjene stope partnerstva s brendovima kreću se od 5 do 25 dolara po videu za nano-influencere do 5.000 do 100.000 dolara i više za mega-influencere s preko milijun pratitelja.
+
+### Pritisci na rad kreatora i MCN ekosustav
+
+Unatoč poboljšanoj monetizaciji, pritisci na rad kreatora ostaju značajni. Preporuke platforme sugeriraju 1 do 4 objave dnevno za optimalan rast, stvarajući produkcijske zahtjeve koji doprinose raširenom izgaranju. Algoritamska ovisnost znači da propuštene objave mogu zakopati sadržaj i prekinuti momentum, dok varijabilnost RPM-a čini prihod nepredvidljivim. Geografske kazne dodatno kompliciraju izazove: američki pregledi plaćaju 7 do 8 puta više od pregleda iz Jugoistočne Azije.
+
+Multi-Channel Networks (MCN-ovi) pojavili su se kao podrška kreatorima, posebno u TikTok Shopovom affiliate ekosustavu. Te agencije pregovaraju o višim stopama provizije, osiguravaju uzorke proizvoda, pružaju podršku pri rješavanju kršenja i povezuju kreatore s prodavačima. Međutim, zabrinutosti perzistiraju oko eksploatativnih uvjeta ugovora — neki MCN-ovi navodno uzimaju 40 do 50 posto zarade kreatora s teškim izlaznim klauzulama.
+
+## Kulturni utjecaj kroz kreativnost ograničenu formatom
+
+TikTokova ograničenja formata — izvorno maksimalno 15-sekundni videozapisi, vertikalna orijentacija i dizajn usmjeren na zvuk — oblikovala su prepoznatljivu estetiku koja je utjecala na globalnu medijsku produkciju. Evolucija platforme od Musical.ly uspostavila je norme brze montaže, kadriranja izbliza nativnog za mobilne uređaje i zvuka kao primarnog elementa sadržaja umjesto dodatka.
+
+Akademski istraživač Radovanović dokumentirao je TikTokov auralni zaokret u časopisu INSAM, napominjući da je platforma promijenila i utjecala na procese stvaranja glazbe, slušanja glazbe i promocije glazbe. Svaki zvuk stvara bujajuću mrežu emocija, unutarnjih šala i plesova, pri čemu zvukovi funkcioniraju kao navigabilne mreže sadržaja. Klik na bilo koji audio otkriva sve videozapise koji ga koriste, stvarajući ono što znanstvenici Zulli i Zulli nazivaju imitacijskim javnostima.
+
+### Remix značajke i kolektivno sudjelovanje
+
+TikTokova infrastruktura jedinstveno omogućuje kolektivno stvaranje sadržaja kroz tri ključne značajke. Sounds omogućuje širenje licenciranog ili originalnog zvuka preko videozapisa. Duets dopušta paralelno stvaranje videozapisa s podijeljenim ekranom ili picture-in-picture rasporedom. Stitches omogućuje izrezivanje do 5 sekundi iz drugog videozapisa za integraciju u novi sadržaj. Ove značajke pokreću cirkulaciju sadržaja kroz mehanizme različite od platformi temeljenih na pratiteljima.
+
+Viralna pjesma "It's Corn" ilustrira ovu dinamiku — počevši kao jedan isječak intervjua, pokrenula je lavinu obrada, dueta, stitcheva, remixa i reakcija koja je ušla u glazbene repertoare radija, zborova, bendova i drugih izvođača globalno.
+
+### Niš zajednice kroz algoritamsko otkrivanje
+
+FYP-ov pristup otkrivanja usmjeren na sadržaj omogućuje formiranje subkultura nemoguće na platformama temeljenim na društvenom grafu. Zajednice poput BookToka, CleanToka, WitchToka, PlantToka i FinToka organski se pojavljuju dok algoritam povezuje korisnike s nišnim interesima bez obzira na postojeće društvene veze.
+
+::: {.highlight-box}
+**BookTok: Transformacija izdavaštva**
+
+BookTok demonstrira transformativni utjecaj na industriju. Hashtag je akumulirao preko 112 milijardi pregleda do srpnja 2023., a zajednici se pripisuje pomaganje autorima da prodaju preko 20 milijuna knjiga u 2021. godini. Roman E. Lockhart "We Were Liars" iz 2014. dospio je na liste bestselera 2020. — šest godina nakon objave — nakon što je postao viralan, s hashtagom #wewereliars koji je prikupio 172 milijuna pregleda do prosinca 2023. Bloomsbury je prijavio 220% rasta prodaje, dok su kanadske knjižnice zabilježile rast rezervacija za istaknute knjige od 561%. Fenomen je stvorio potpuno novu žanrovsku kategoriju: romantasy, hibrid romanse i fantazije.
+:::
+
+### Persuazivni dizajn i ekonomija pažnje
+
+TikTokovo sučelje utjelovljuje principe persuazivne tehnologije koje bihevioralni istraživači uspoređuju s mehanikom slot aparata. Platforma koristi ono što psiholozi identificiraju kao B.F. Skinnerov raspored varijabilnog omjera pojačanja — nasumične nagrade stvaraju snažnije formiranje navika od predvidljivih obrazaca. Svaki swipe obećava neočekivani sadržaj, pokrećući dopaminske skokove koji potiču nastavak angažmana.
+
+Istraživanje primjenjujući teoriju Stimulus-Organism-Response na TikTok ustanovilo je da kvaliteta sustava — tehnološka glatkoća — više utječe na održivi angažman od kvalitete informacija. Dizajn beskonačnog scrollanja eliminira prirodne izlazne točke, inducirajući stanja protoka koja iskrivljuju percepciju vremena. Istraživanje Statiste iz 2023. utvrdilo je da se 56% pripadnika Gen Z osjeća ovisno o svojim telefonima, prvenstveno zbog društvenih medija.
+
+Odnos Gen Z s TikTokom odražava te dinamike: 60% korisnika TikToka pripada Gen Z generaciji, s prosječnim korisnicima koji provode 95 minuta dnevno na platformi. Fenomen "TikTok me natjerao da kupim" dokumentiran je u preko 6,5 milijuna videozapisa, pri čemu 61% korisnika prijavljuje kupnje izravno putem platforme ili nakon viđenja TikTok oglasa. Googleovo vlastito interno istraživanje priznalo je da gotovo polovica Gen Z sada koristi TikTok ili Instagram za pretraživanje umjesto Googlea.
+
+## Izazovi upravljanja od moderiranja sadržaja do geopolitike
+
+TikTokovo moderiranje sadržaja funkcionira kroz hibridni sustav automatiziranog i ljudskog pregleda. Platforma zapošljava preko 40.000 stručnjaka za povjerenje i sigurnost globalno, s automatiziranim sustavima sada odgovornim za 80% uklanjanja videozapisa s 99,1% točnosti. U jednom tromjesečju od srpnja do rujna 2024., TikTok je uklonio preko 147 milijuna videozapisa, blokirao preko 214 milijuna računa, zatvorio preko 12 milijuna livestreamova i uklonio preko 1,3 milijarde komentara zbog kršenja politika.
+
+### Povijesne optužbe za cenzuru
+
+Procurjeli interni dokumenti koje su dobili The Guardian i The Intercept otkrili su da su TikTokovi moderatori nekada bili instruirani da suzbijaju videozapise o Tiananmenskom trgu, tibetanskoj neovisnosti i Falun Gongu. Sadržaj koji se smatrao da ugrožava nacionalnu čast i interese mogao je rezultirati trajnim zabranama. TikTok je priznao da su te politike postojale, ali tvrdi da su ukinute u svibnju 2019. kao grub pristup iz ranih dana platforme.
+
+Istraživački nalazi ostaju mješoviti. Studija Sveučilišta Rutgers iz prosinca 2023. pronašla je snažnu mogućnost pojačavanja ili suzbijanja sadržaja usklađenog s interesima kineske vlade — teme cenzurirane u Kini bile su značajno podzastupljene u usporedbi s Instagramom. Međutim, Internet Governance Project Georgia Techa zaključio je da TikTok ne izvozi cenzuru, niti izravno blokiranjem materijala, niti neizravno putem preporučiteljskog algoritma. Citizen Lab je pronašao dokaze nekonkluzivnima.
+
+Moderiranje LGBTQ+ sadržaja generiralo je dodatnu kontroverzu. Australski Institut za strateške politike dokumentirao je da su LGBTQ+ hashtagovi bili shadow-banirani na najmanje 8 jezika, s terminima kategoriziranim u TikTokovom kodu slično terorističkim grupama i prostoti. Wall Street Journal izvijestio je da su zaposlenici pratili korisnike koji su gledali LGBTQ+ sadržaj tijekom 2020.-21., održavajući centraliziranu nadzornu ploču korisničkih imena.
+
+### Kinesko vlasništvo i strukturne zabrinutosti o nacionalnoj sigurnosti
+
+Jezgra geopolitičke napetosti proizlazi iz kineskog podrijetla ByteDancea i kineskog Zakona o nacionalnoj obavještajnoj službi iz 2017., koji navodi da sve organizacije i građani moraju podržavati, pomagati i surađivati s nacionalnim obavještajnim naporima u skladu sa zakonom. Pravni stručnjaci raspravljaju o eksteritorijalnoj primjeni zakona, ali strukturna mogućnost da Peking može prisiliti pristup podacima ili manipulaciju sadržaja pokreće regulatornu zabrinutost diljem demokratskih nacija.
+
+BuzzFeed News potvrdio je 2022. da su zaposlenici ByteDancea u Kini pristupali nejavnim podacima američkih korisnika. Forbes je izvijestio da su porezni identifikacijski brojevi uključujući brojeve socijalnog osiguranja američkih kreatora sadržaja pohranjeni u Kini, te da su zaposlenici ByteDancea pratili IP adrese novinara. S druge strane, nema javnih dokaza da je TikTok zapravo prenio podatke kineskoj vladi.
+
+### Globalni regulatorni odgovori
+
+Indija je implementirala najznačajniju akciju, zabranjujući TikTok 29. lipnja 2020. nakon smrtonosnog graničnog sukoba s Kinom. Zabrana je uklonila 200 milijuna korisnika preko noći — TikTokovo najveće tržište izvan Kine — s procijenjenim gubicima od 6 milijardi dolara. YouTube Shorts i Instagram Reels naknadno su osvojili indijsko tržište; zabrana ostaje trajna.
+
+Europska komisija, Europski parlament i Vijeće Europske unije zabranili su TikTok na uređajima osoblja u veljači i ožujku 2023., utječući na približno 32.000 zaposlenika. Slične zabrane uslijedile su u Kanadi, Australiji, Ujedinjenom Kraljevstvu, Tajvanu i preko 30 američkih država za vladine uređaje.
+
+Sjedinjene Države poduzele su najagresivniji regulatorni pristup. Zakon o zaštiti Amerikanaca od aplikacija kontroliranih od strane stranih protivnika (PAFACA), koji je potpisao predsjednik Biden u travnju 2024., zahtijevao je od ByteDancea da proda TikTok u roku od 270 dana ili se suoči s distribucijskim zabranama. Vrhovni sud jednoglasno je potvrdio zakon u siječnju 2025. u predmetu TikTok Inc. protiv Garland, odbacujući izazove temeljene na Prvom amandmanu.
+
+TikTok je dobrovoljno suspendirao američku uslugu približno 14 sati 18. i 19. siječnja 2025. Predsjednik Trump naknadno je potpisao višestruke izvršne naredbe produžujući rok — najnovije do 16. prosinca 2025. — dok je nastavio raditi na okviru kvalificirane prodaje koji zahtijeva većinsko američko vlasništvo, ByteDanceovo zadržavanje manje od 20% i Oracle kao pružatelja sigurnosti i nadzornika podataka.
+
+### Debate o algoritamskoj pristranosti tijekom sukoba u Gazi
+
+Izraelsko-gazijski sukob iznio je na površinu optužbe o sustavnoj algoritamskoj pristranosti. Kritičari su citirali drastične razlike u hashtagovima — #standwithpalestine akumulirao je 3,4 milijarde pregleda u usporedbi s 313,6 milijuna pregleda za #standwithisrael, omjer od približno 10:1. Kongresne figure optužile su TikTok za ispiranje mozga mladih protiv zemlje i njezinih saveznika.
+
+TikTokova obrana naglašavala je da hashtagove kreiraju korisnici, ne platforma; da korisnici s Bliskog istoka i Jugoistočne Azije čine značajan obujam pregleda; da se slični omjeri sadržaja pojavljuju na Instagramu i Facebooku; te da su mladi korisnici organski više naklonjeni Palestini prema demografskom anketiranju koje pokazuje da 71% demokrata mlađih od 50 godina ima negativne stavove prema Izraelu. Platforma je angažirala dodatne moderatore koji govore arapski i hebrejski te uklonila značajku koja prikazuje ukupne preglede hashtaga — kritičari tvrde da je to spriječilo daljnju analizu.
+
+## Buduće trajektorije usred regulatorne nesigurnosti
+
+TikTokova budućnost uključuje istodobnu evoluciju i egzistencijalni rizik. Platforma se okreće prema dužem sadržaju, proširuje AI mogućnosti i pozicionira se kao alternativa pretraživačima — sve to dok djeluje pod pravnim okvirima koji bi mogli prisiliti prodaju, restrukturiranje ili zatvaranje.
+
+### Pivot prema dužem sadržaju
+
+Ograničenja duljine videozapisa progresivno su se proširivala: od 15 sekundi 2017. do 60 sekundi 2018., zatim 3 minute 2021. i 10 minuta 2022., s odabranim kreatorima koji sada mogu učitavati do 30 do 60 minuta. Zahtjev Creator Rewards Programa za videozapise od 60 sekundi i više za zaradu predstavlja strateško poticanje ovog pomaka.
+
+Podaci o performansama iz studije na 1,1 milijun videozapisa otkrivaju ranu fazu tranzicije: 86% TikTok videozapisa ostaje kraće od jedne minute, ali duži videozapisi dobivaju 43,2% više dosega i 63,8% više vremena gledanja. Korisnici TikToka sada provode polovicu vremena gledajući videozapise duže od minute. Platforma se proširuje na edukativni sadržaj, vijesti i how-to materijal — tradicionalno YouTubeov teritorij.
+
+Ova konvergencija ide u oba smjera. YouTube Shorts, pokrenut u rujnu 2020., sada generira preko 50 milijardi dnevnih pregleda i proširio je maksimalnu duljinu na 3 minute u listopadu 2024. Instagram Reels izravno se natječe za kratki vertikalni video. Sve platforme usvajaju uspješne značajke jedna druge, čineći diferencijaciju sve težom.
+
+### Kognitivni učinci
+
+Istraživanje učinaka TikToka na raspone pažnje ostaje preliminarno, ali izaziva značajne zabrinutosti. Istraživanje Cleveland Clinica ukazuje da djeca izložena brzim promjenama scena teško se prilagođavaju aktivnostima gdje se stvari ne kreću baš toliko brzo. Kineska studija o Douyinu pronašla je da personalizirani sadržaj stimulira centre nagrade u mozgu intenzivnije od nasumičnog sadržaja, s nekim korisnicima koji pokazuju obrasce aktivacije slične ovisnosti.
+
+Pedijatrijski istraživači opisuju TikTok kao dopaminski stroj s posebnim zabrinutostima za korisnike mlađe od 25 godina čiji prefrontalni korteks ostaje u razvoju. Tehnički univerzitet u Danskoj dokumentirao je sužavanje kolektivnih raspona pažnje — zadržavanje top hashtaga palo je s 17,5 sati 2013. na 11,9 sati 2016. Međutim, istraživači naglašavaju da dokazi ostaju uglavnom korelacijski, a longitudinalne studije su ograničene.
+
+### AI integracija
+
+TikTok je pokrenuo Symphony, sveobuhvatnu skupinu AI alata koja uključuje Symphony Assistant kao marketing chatbot, Symphony Creative Studio za automatski generirane video oglase, Symphony Digital Avatars za AI-generirane glasnogovornike i Symphony AI Dubbing za višejezični prijevod glasa. Dodatni alati pretvaraju slike i tekst u video sadržaj. Svi Symphony outputi zahtijevaju oznake AI-generiranog sadržaja i ugrađuju C2PA metapodatke za transparentnost.
+
+Funkcionalnost pretraživanja platforme sve više pozicionira TikTok kao alternativu Googleu za Gen Z. Adobeovo istraživanje utvrdilo je da je 64% Gen Z koristilo TikTok pretraživanje, pri čemu 51% žena Gen Z preferira TikTok nad Googleom. Međutim, nijansirani podaci pokazuju drugačiju sliku: 9 od 10 korisnika Gen Z još uvijek smatra Google najkorisnijim, s TikTok pretraživanjem koje se više koristi za lakše teme poput restorana, proizvoda i mode, dok ozbiljna istraživanja ostaju dominirana Googleom.
+
+### Status regulatornog rješenja
+
+Od prosinca 2025., TikTok djeluje pod četvrtim produljenjem izvršne naredbe predsjednika Trumpa. Okvir kvalificirane prodaje najavljen u rujnu 2025. zahtijevao bi većinsko američko vlasništvo, ByteDanceovo zadržavanje manje od 20% dionica i Oracle kao pružatelja sigurnosti. ByteDance bi navodno primio 50% američke dobiti nakon prodaje.
+
+Potencijalni kupci koji se spominju uključuju Oracle, Andreessen Horowitz, Blackstone, Amazon, konzorcij Project Liberty Franka McCourta i AppLovin, plus postojeće investitore General Atlantic, Susquehanna, KKR i Coatue.
+
+Kritične neizvjesnosti ostaju. Kina nije javno potvrdila suglasnost s uvjetima dogovora. Izvozna ograničenja prema kineskom pravu mogu spriječiti potpuni prijenos algoritma — a bilo koja prodaja bez TikTokovog preporučiteljskog algoritma značajno umanjuje vrijednost. Senator Markey zatražio je informiranje o detaljima dogovora u studenom 2025., napominjući da je objavljeno malo detalja. Pisma DOJ-a o neprovođenju koja omogućuju nastavak rada mogu se suočiti s pravnim izazovima.
+
+Indijski presedan sugerira što bi scenarij zabrane mogao značiti: procijenjeni gubitak TikToka od 6 milijardi dolara, vrhunski influenceri koji godišnje gube milijune i YouTube Shorts plus Instagram Reels koji preuzimaju tržišni udio. Međutim, TikTokova globalna korisnička baza udvostručila se između 2020. i 2024. unatoč potpunom gubitku Indije.
+
+## Zaključak: Neviđena konvergencija moći i ranjivosti
+
+TikTok predstavlja jedinstven fenomen u povijesti medija — platformu koja je postigla dominantan kulturni utjecaj dok je istodobno djelovala pod stalnom egzistencijalnom prijetnjom najvećeg svjetskog gospodarstva. Njegova algoritamska arhitektura demokratizirala je otkrivanje sadržaja na načine koji su preoblikovali glazbenu industriju, izdavaštvo, konzumaciju vijesti i političku komunikaciju. Njegov ekonomski model stvorio je i prilike u obliku RPM-ova Creator Rewards Programa koji nadmašuju konkurente, i eksploataciju kroz algoritamsku ovisnost, pritiske učestalosti objavljivanja i geografske razlike u plaćanju.
+
+Platforma utjelovljuje temeljne napetosti koje će definirati upravljanje tehnologijom desetljećima: između inovacije i nacionalne sigurnosti, između globalnih platformi i digitalne suverenosti, između algoritamske učinkovitosti i ljudske autonomije. Valuacija ByteDancea od 480 milijardi dolara demonstrira tržišno povjerenje u TikTokov komercijalni potencijal; jednoglasna presuda Vrhovnog suda demonstrira vladin konsenzus o njegovom strateškom riziku.
+
+::: {.key-insight}
+#### Implikacije za istraživače i stratege
+
+Za akademske istraživače, TikTok pruža studiju slučaja kako tehnička arhitektura oblikuje kulturu — FYP-ov model usmjeren na sadržaj stvorio je zajednice poput BookToka i FinToka nemoguće na platformama usmjerenim na odnose, istodobno potičući zabrinutosti o filter mjehurićima i persuazivnom dizajnu. Za poslovne stratege, TikTok demonstrira i priliku u socijalnoj trgovini s 33,2 milijarde dolara GMV-a u 2024. i rizik ovisnosti o platformi pod regulatornom nesigurnošću.
+:::
+
+Trajektorija platforme vjerojatno će uključivati neki oblik vlasničkog restrukturiranja, a ne potpunu zabranu — ulaganje Trumpove administracije u pregovaranje sugerira preferenciju rješenja nad zabranom. Međutim, bilo koja prodaja bez algoritma temeljito bi umanjila TikTokovu jezgrenu konkurentsku prednost. Ishod će uspostaviti presedane za to kako demokracije reguliraju digitalnu infrastrukturu u stranom vlasništvu, kako platforme navigiraju natjecanje velikih sila i hoće li algoritamsko zarobljavanje pažnje suočiti s značajnim regulatornim ograničenjima.
+
+TikTokova priča nije završena. Ono što je završilo jest svaka pretpostavka da platforme viralnog videa djeluju izvan geopolitičkih posljedica.
+
+::: {.section-footer}
+*Posljednje ažuriranje: prosinac 2025. Ovaj dokument dio je većeg istraživačkog projekta o platformskim medijskim sustavima.*
+:::
